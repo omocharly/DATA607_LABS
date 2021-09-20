@@ -1,0 +1,162 @@
+---
+title: "DATA607 PROJECT 1 - CHESS_TOURNAMENT_RESULT"
+output: 
+  html_document:
+    theme: cerulean
+    toc: true
+    toc_float: true
+---
+
+### Title: CUNY SPS MDS Data607_Project1"
+### Author: Charles Ugiagbe
+### Date: "9/12/2021"
+
+
+
+###  Load Required Package
+
+```{r}
+library(tidyverse)
+library(knitr)
+```
+
+### Read Tournament Data
+
+```{r}
+theurl <- "https://raw.githubusercontent.com/omocharly/DATA607_LABS/main/tournamentinfo.txt"
+chess_data.df <- readLines(theurl)
+```
+### Take a brief look at the head of the data
+```{r}
+head(chess_data.df)
+```
+
+###  Cleanup the header by removing first 4 rows:
+
+```{r}
+chess_data1.df <- chess_data.df[c(-1:-4, 0)]
+head(chess_data1.df)
+```
+
+###    Create two data frames to capture the two lines of data for each player from the original frame. Every player information is in lines of three with the third line being the row delimiter:
+
+```{r}
+#created empty objects:  
+data1.df <- c()
+data2.df <- c()
+
+#Run a loop to get the split:  
+k <- 1
+for (i in 1:length(chess_data1.df) ) {
+  if ( i == 1 | i%%3 == 1 )  {    data1.df[k] <- chess_data1.df[i]  }
+  else if (i == 2 | i%%3 == 2)  {      data2.df[k] <- chess_data1.df[i]    }
+  if (i%%3 == 0) { 
+    k <- k + 1
+    }
+}
+
+```
+
+```{r}
+# Sample rows from the dataset:  
+head(data1.df)
+```
+
+
+```{r}
+head(data2.df)
+```
+
+```{r}
+# Splitting  with pattern as the delimiter "|" :
+data1.cols.df <- str_split(data1.df, pattern = fixed("|"), simplify = TRUE, n=11)
+data2.cols.df <- str_split(data2.df, pattern = fixed("|"), simplify = TRUE, n=11)
+
+#Trimming the values for values in all rows and columns:
+data1.cols.df  <- trimws(data1.cols.df )
+data2.cols.df  <- trimws(data2.cols.df )
+
+```
+
+### Sample rows from the dataset:
+
+```{r}
+  
+head(data1.cols.df)
+```
+
+
+```{r}
+head(data2.cols.df)
+```
+
+
+### We will create the final data set having the merged data from the above two data sets with each row in this final data set representing a single player information:
+
+```{r}
+# Creating of an empty dataset with column names and number of rows as the length of final dataset:  
+final.dataset<-data.frame(id=character(nrow(data1.cols.df)), name=character(nrow(data1.cols.df)), state=character(nrow(data1.cols.df)), total.points=numeric(nrow(data1.cols.df)), pre.rating=numeric(nrow(data1.cols.df)), avg.pre.rating.oppo=numeric(nrow(data1.cols.df)), rd1=character(nrow(data1.cols.df)),rd2=character(nrow(data1.cols.df)), rd3=character(nrow(data1.cols.df)), rd4=character(nrow(data1.cols.df)), rd5=character(nrow(data1.cols.df)), rd6=character(nrow(data1.cols.df)), rd7=character(nrow(data1.cols.df)) )
+
+# Assigning valve to each column in the final dataset [except for average opponent rating, which we will calculate in next step]:    
+final.dataset$id <- trimws(data1.cols.df[, 1])
+final.dataset$name <- data1.cols.df[, 2]
+final.dataset$state <- data2.cols.df[, 1]
+final.dataset$total.points <-  as.double(data1.cols.df[, 3] )
+final.dataset$pre.rating  <- as.integer(  sub('P', '.', trimws(  substr(data2.cols.df[,2], regexpr('R:', data2.cols.df[,2] ) +2 , regexpr("->", data2.cols.df[,2])-1)  ) ))
+final.dataset$rd1 <- sub('[[:alpha:]]', '', data1.cols.df[,4])
+final.dataset$rd2 <- sub('[[:alpha:]]', '', data1.cols.df[,5])
+final.dataset$rd3 <- sub('[[:alpha:]]', '', data1.cols.df[,6])
+final.dataset$rd4 <- sub('[[:alpha:]]', '', data1.cols.df[,7])
+final.dataset$rd5 <- sub('[[:alpha:]]', '', data1.cols.df[,8])
+final.dataset$rd6 <- sub('[[:alpha:]]', '', data1.cols.df[,9])
+final.dataset$rd7 <- sub('[[:alpha:]]', '', data1.cols.df[,10])
+
+
+#Assigning valve to column avg.pre.rating.oppo:
+for (i in 1:nrow(data1.cols.df) ) {
+  
+  final.dataset$avg.pre.rating.oppo[i] <- as.integer( mean(  c(final.dataset$pre.rating[final.dataset$id == trimws(final.dataset$rd1[i])]   , final.dataset$pre.rating[final.dataset$id == trimws(final.dataset$rd2[i])]  , final.dataset$pre.rating[final.dataset$id == trimws(final.dataset$rd3[i])]  , final.dataset$pre.rating[final.dataset$id == trimws(final.dataset$rd4[i])]  , final.dataset$pre.rating[final.dataset$id == trimws(final.dataset$rd5[i])]  , final.dataset$pre.rating[final.dataset$id == trimws(final.dataset$rd6[i])]  , final.dataset$pre.rating[final.dataset$id == trimws(final.dataset$rd7[i])] ) , na.rm = TRUE ) )
+}
+```
+
+```{r}
+# Sample rows from the dataset:  
+head(final.dataset)
+```
+
+###    Creating of the csv file with some selected columns:
+
+```{r}
+final.csv.dataset <- subset(final.dataset, select= c(name, state, total.points, pre.rating,avg.pre.rating.oppo ))
+
+```
+
+
+###  Analysis and Visualization
+
+Player’s Pre Ratings compared to Opponent’s Average Ratings
+```{r}
+rating <- lm(pre.rating~ avg.pre.rating.oppo, data=final.dataset)
+summary(rating)
+```
+
+
+```{r}
+plot(final.dataset$`pre.rating`, final.dataset$`avg.pre.rating.oppo`, xlim=c(800,1800), ylim=c(1000,1800), main="PreRating vs Oppononent avg Rating", xlab="Player PreRating", ylab="Opponent Average PreRating", abline(rating))
+```
+
+### Write into a csv file in current working directory
+
+```{r}
+getwd()
+```
+
+
+```{r}
+write.csv(final.csv.dataset,'chess_players_info.csv')
+```
+
+
+
+
+
