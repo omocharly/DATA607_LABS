@@ -1,0 +1,194 @@
+---
+title: "Tidying and Transforming Wide Data"
+output:
+  html_document:
+    theme: cerulean
+    toc: true
+    toc_float: true
+---
+
+
+
+### Title: CUNY SPS MDS DATA607_PROJ2"
+### Author: Charles Ugiagbe
+### Date: "10/3/2021"
+
+
+
+##    Untidy Data 1:  Submitted by Eric Lehmphul
+
+```{r}
+library(tidyverse)
+```
+
+
+###    Read the data
+```{r}
+url <- "https://raw.githubusercontent.com/omocharly/DATA607_PROJECTS/main/Untidy%20Data%20-%20By%20Eric%20Lehmphul.csv"
+testdata <- read.csv(url)
+testdata
+```
+
+###  Tidy the data by separating the student score fromt the time.
+```{r}
+tidy_testdata = testdata %>%
+  separate(Test1..TimeStudiedTest1,
+           into = c("Test1","TimeStudiedTest1"),
+           sep = ", ", convert=TRUE) %>%
+  separate(Test2..TimeStudiedTest2,
+           into = c("Test2","TimeStudiedTest2"),
+           sep = ",", convert=TRUE) %>%
+  separate(Test3..TimeStudiedTest3,
+           into = c("Test3","TimeStudiedTest3"),
+           sep = ", ", convert=TRUE) %>%
+  separate(Test4..TimeStudiedTest4,
+           into = c("Test4","TimeStudiedTest4"),
+           sep = ", ", convert=TRUE)
+
+# To rearrnge the Columns
+test_data <- tidy_testdata %>% select(Student, Gender, Test1, Test2, Test3, TimeStudiedTest1, TimeStudiedTest2, TimeStudiedTest3)
+test_data
+```
+
+Replace "NA" with Zero(0).
+```{r}
+test_data1 <- test_data %>% replace(is.na(.), 0)
+test_data1
+```
+
+###       Calculate the Average scores and Time studied.
+```{r}
+test_score <- mutate(test_data1,
+  Avg_score = round((Test1 + Test2 + Test3)/3,0),
+  Avg_studytime = round((TimeStudiedTest1 + TimeStudiedTest2 + TimeStudiedTest3)/3,0))
+test_score
+```
+
+### Select the needed Column
+```{r}
+test_score <- select(test_score, Student, Gender, Avg_score, Avg_studytime)
+test_score
+```
+
+### Observe the Plot of Average score against studied Time.
+
+```{r}
+scorevtime <- ggplot(data = test_score, aes(Avg_studytime, Avg_score)) + geom_point() +
+  geom_smooth(se = FALSE) + ylab("Average Score") + xlab("Average Study Time") + theme_bw() + 
+  labs(title = "Average Test Score vs Average Study Time")
+scorevtime
+```
+
+
+**The correlation between them is  0.7278**
+
+```{r}
+x <- test_score$Avg_studytime
+y <- test_score$Avg_score
+cor.test(x, y)
+```
+
+
+--------------------------------------------------------------------------------
+
+\clearpage
+
+
+
+
+##    Untidy Data 2: Submitted by me (Charles Ugiagbe)
+
+###     Read the Data
+
+```{r}
+url2 <- "https://raw.githubusercontent.com/omocharly/DATA607_PROJECTS/main/Untidy%20Data%20%20-%20Charles%20Ugiagbe.csv"
+Exam_score <- read.csv(url2)
+head(Exam_score)
+```
+
+### Clean the Data; Extract the Date from the Timestamp
+
+```{r}
+Exam_score$date_component <- as.Date(Exam_score$Timestamp,'%d/%m/%Y')
+glimpse(Exam_score)
+```
+
+
+###   Select the Column of interest
+
+```{r}
+Exam_score <- select(Exam_score, date_component, Entering.Grade.Level, Birth.Month, OLSAT.Verbal.Score, NNAT.Non.Verbal.Raw.Score)
+head(Exam_score)
+```     
+
+
+```{r}
+Exam_score1 = Exam_score %>% rename(
+      Date = date_component,
+      Entering_Grade_lvl = Entering.Grade.Level,
+      Birth_month = Birth.Month,
+      Verbal_score = OLSAT.Verbal.Score,
+      Non_verbal_score = NNAT.Non.Verbal.Raw.Score)
+Exam_score1
+```
+
+
+###   Take the Plot of Verbal Vs Non-Verbal
+
+```{r}
+Exam_score2 <- ggplot(data = Exam_score1, aes(as.numeric(Verbal_score), as.numeric(Non_verbal_score))) + geom_point() +
+  geom_smooth(se = FALSE) + ylab("Verbal Score") + xlab("Non Verbal Score") + theme_bw() + 
+  labs(title = "Verbal Score vs Non Verbal Score")
+Exam_score2
+```
+
+
+
+--------------------------------------------------------------------------------
+
+\clearpage
+
+
+
+##     Untidy Data 3: Submitted by Mauricio Claudio
+
+```{r}
+url3 <- "https://raw.githubusercontent.com/omocharly/DATA607_PROJECTS/main/Untidy%20Data%20-%20by%20Mauricio%20Claudio.csv"
+churn_data <- read.csv(url3)
+churn_data
+```
+
+###  Clean and Tidy the Data
+```{r}
+churn_data[churn_data==""]=NA
+churn_new = churn_data %>%
+  select(-Description) %>%
+  fill("Division") %>%
+  pivot_longer(c(Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec),
+  names_to="Month",
+  values_to = "Customers",
+  names_transform = list(Customers=as.integer)
+  )
+
+churn_new
+```
+
+
+###   To test the most Effective Division using the ratio by Substracting loss from gain
+```{r}
+churn_new %>% group_by(Division) %>%
+  summarize(Net_Customers=sum(Customers)) %>%
+  ggplot(aes(Division,Net_Customers)) + geom_col()
+```
+
+###    To show which month Generate the Most Customers
+```{r}
+churn_new %>%
+  group_by(Month) %>%
+  summarize(Net_Customers=sum(Customers)) %>%
+  ggplot(aes(Month,Net_Customers)) + geom_col()
+```
+
+
+
+
