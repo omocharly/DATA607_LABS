@@ -1,0 +1,94 @@
+---
+title: "working with Json Extra Credit"
+author: "Charles Ugiagbe"
+date: "10/20/2021"
+output:
+  html_document:
+    theme: cerulean
+    toc: true
+    toc_float: true
+---
+
+### Title: CUNY SPS MDS Data606_working with Json"
+### Author: Charles Ugiagbe
+
+
+```{r message=FALSE, warning=FALSE}
+library("httr")
+library("ggplot2")
+library("jsonlite")
+library("plyr")
+library("dplyr")
+library("knitr")
+```
+
+## Getting the data
+
+We use the [Nobel Prize API](https://nobelprize.readme.io/) to fetch laureate data in JSON format.
+
+Purpose: This data seek to analyse the different parameter in the Nobel Prize API above. This capture Nobel Prize winner from 1975
+
+```{r get-data, tidy=TRUE, cache=FALSE, message=FALSE}
+url <- "http://api.nobelprize.org/v1/laureate.json"
+nobelprz <- fromJSON(url)
+names(nobelprz)
+```
+
+
+```{r}
+names(nobelprz$laureates)
+```
+
+```{r}
+names(nobelprz$laureates$prizes[[1]])
+```
+
+
+
+## Nobel Prizes won by Gender and organization
+
+```{r}
+gender <- as.data.frame(table(nobelprz$laureates$gender), stringsAsFactors = FALSE)
+ggplot(gender) + geom_bar(aes(Var1, Freq), stat = "identity", fill = "skyblue3") + theme_bw() + labs(x = "gender", y = "count", title = "All Nobel Prizes by Gender")
+```
+##    Comparing the Nobel prizes won by Gender and their various categories
+
+More male has won the nobel prize than female in all categories
+
+```{r}
+cnt <- sapply(nobelprz$laureates$prizes, function(x) nrow(x))
+prizes <- ldply(nobelprz$laureates$prizes, as.data.frame)
+prizes$id <- rep(nobelprz$laureates$id, cnt)
+prizes$gender <- rep(nobelprz$laureates$gender, cnt)
+pg <- as.data.frame(table(prizes$category, prizes$gender), stringsAsFactors = FALSE)
+ggplot(pg, aes(Var2, Freq)) + geom_bar(aes(fill = Var2), stat = "identity") + theme_bw() + facet_grid(. ~ Var1) + labs(x = "gender", y = "count", title = "All Nobel Prizes by Gender and Category") + scale_fill_manual(values = c("darkorange", "skyblue3", "grey"), name = NULL) + theme(axis.text.x = element_blank())
+```
+
+
+##   Multiple winners of the Nobel Prize - individual and Organization
+
+```{r}
+multi <- which(sapply(nobelprz$laureates$prizes, function(x) nrow(x)) > 1)
+winners <- nobelprz$laureates[multi, c("firstname", "surname", "born", "bornCountry")]
+print(kable(winners), type = "html", comment = FALSE, include.rownames = FALSE)
+```
+
+## Share Nobel Prize won by two and Three Laureates
+
+
+```{r}
+share <- as.data.frame(table(prizes$year, prizes$category), stringsAsFactors = FALSE)
+colnames(share) <- c("year", "category", "Freq")
+share1 <- as.data.frame(table(share$Freq), stringsAsFactors = FALSE)
+ggplot(share1[share1$Var1 != 0, ]) + geom_bar(aes(Var1, Freq), stat = "identity", fill = "skyblue3") + theme_bw() + labs(x = "number of laureates", y = "count", title = "Laureates per Nobel Prize")
+```
+
+##  Age Distribution of  Nobel laureates 
+
+```{r}
+prizes$born <- rep(nobelprz$laureates$born, cnt)
+prizes$age <- as.Date(paste(prizes$year, "12-31", sep = "-"), "%Y-%m-%d") - as.Date(prizes$born, "%Y-%m-%d")
+ggplot(prizes[!is.na(prizes$category), ]) + geom_boxplot(aes(category, as.numeric(age) / 365), fill = "red") + theme_bw() + stat_summary(aes(category, as.numeric(age) / 365), fun.y = "median", geom = "point") + labs(x = "category", y = "age (years)", title = "Age Distribution of Nobel Laureates by Category")
+```
+```
+
