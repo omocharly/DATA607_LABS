@@ -1,0 +1,105 @@
+---
+title: "Web APIs"
+output: 
+  html_document:
+    theme: cerulean
+---
+
+```{r global_options, include=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Title: CUNY SPS MDS DATA607_WK9Assignmt"
+### Author: Charles Ugiagbe
+### Date: "10/24/2021"
+
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">
+
+**Assignment Question**
+
+The New York Times web site provides a rich set of APIs, as described here: https://developer.nytimes.com/apis(https://developer.nytimes.com/apis)
+
+You’ll need to start by signing up for an API key.
+
+Your task is to choose one of the New York Times APIs, construct an interface in R to read in the JSON data, and transform it into an R DataFrame.
+
+**Approach to Solution**
+
+The New York Times API that interest me the most was “Books API”. After requesting the API key, I was able to access it in R. I extracted the data of “hardcover fiction books” from the books API, and this was in JSON format. I then used “fromjson” to convert the JSON data to R objects.
+
+</div> \hfill\break
+
+
+
+##        Load the Required Packages
+
+```{r message=FALSE, warning=FALSE}
+library(httr)
+library(jsonlite)
+library(tidyverse)
+library(kableExtra)
+```
+
+##        Read the API
+```{r}
+bookAPI <- "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=yrHCGK1wjdTA8abjGAyni4Q1A4RiWACs"
+```
+
+
+### Transform Json Data into R Dataframe and take a glimpse view of the data structure
+
+```{r}
+fiction_books <- fromJSON(bookAPI)[[5]][[11]]
+glimpse(fiction_books)
+```
+
+
+
+### Create a new Dataframe from the Original one for Analysis.
+
+```{r}
+fiction_books2 <- fiction_books[c("rank", "publisher", "title", "author", "contributor", "primary_isbn13")]
+
+fiction_books2 %>%
+  kbl(caption = "Hardcover fiction books") %>%
+  kable_material(c("striped", "hover")) %>%
+  row_spec(0, color = "Red")
+```
+
+
+###       Extra Analysis
+
+```{r}
+# Publisher df. Order books by publisher
+
+df_pub <- fiction_books2 %>%
+  group_by(publisher) %>%
+  summarise(books_published = n())
+```
+
+
+**Plot the ranked books by publisher and visualize which publicher has more books in the ranking.**
+
+```{r}
+df_pub <- df_pub[order(-df_pub$books_published), ]
+
+df_pub %>%
+  
+  ggplot(aes(reorder(publisher, books_published), books_published)) +
+  
+  geom_col(aes(fill = books_published)) + 
+  
+   scale_fill_gradient2(low = "Green",
+                       high = "Blue",
+                       ) +
+  
+   labs(title="Ranked hardcover fiction books by publisher") + ylab("books_published") + theme(legend.position = "none", axis.title.x = element_blank(), axis.text.x=element_text(angle=45)) + theme(plot.title = element_text(hjust=0.5)) + theme(axis.text.x = element_text(margin = margin(t = 25, r = 20, b = 0, l = 0))) 
+  
+  
+  
+```
+
