@@ -1,0 +1,565 @@
+---
+title: "Text Mining with R: Sentiment Analysis"
+output:
+  html_document:
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+---
+
+### Title: CUNY SPS MDS DATA607_Sentiment Analysis"
+### Author: Charles Ugiagbe
+### Date: 10/31/2021
+
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(eval = TRUE, message = FALSE, warning = FALSE)
+```
+
+
+```{r message=FALSE, warning=FALSE}
+library (tidytext)
+library(tidyverse)
+library(stringr)
+library(textdata)
+```
+
+
+## Part 1: Example codes from the textbook:
+
+
+### The sentiments dataset
+
+```{r}
+get_sentiments("afinn")
+```
+
+```{r}
+get_sentiments("bing")
+```
+
+```{r}
+get_sentiments("nrc")
+```
+
+### Sentiment analysis with inner join
+
+
+```{r}
+library(janeaustenr)
+library(dplyr)
+tidy_books <- austen_books() %>%
+  group_by(book) %>%
+  mutate(
+    linenumber = row_number(),
+    chapter = cumsum(str_detect(text, regex("^chapter [\\divxlc]",
+      ignore_case = TRUE
+    )))
+  ) %>%
+  ungroup() %>%
+  unnest_tokens(word, text)
+```
+
+
+```{r}
+nrc_joy <- get_sentiments("nrc") %>%
+  filter(sentiment == "joy")
+tidy_books %>%
+  filter(book == "Emma") %>%
+  inner_join(nrc_joy) %>%
+  count(word, sort = TRUE)
+```
+
+
+```{r}
+library(tidyr)
+jane_austen_sentiment <- tidy_books %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(book, index = linenumber %/% 80, sentiment) %>%
+  spread(sentiment, n, fill = 0) %>%
+  mutate(sentiment = positive - negative)
+```
+
+
+```{r}
+library(ggplot2)
+ggplot(jane_austen_sentiment, aes(index, sentiment, fill = book)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~book, ncol = 2, scales = "free_x")
+```
+
+
+
+###  Comparing the three sentiment dictionaries
+
+```{r}
+pride_prejudice <- tidy_books %>%
+  filter(book == "Pride & Prejudice")
+pride_prejudice
+```
+
+
+```{r}
+afinn <- pride_prejudice %>%
+  inner_join(get_sentiments("afinn")) %>%
+  group_by(index = linenumber %/% 80) %>%
+  summarise(sentiment = sum(value)) %>%
+  mutate(method = "AFINN")
+bing_and_nrc <- bind_rows(
+  pride_prejudice %>%
+    inner_join(get_sentiments("bing")) %>%
+    mutate(method = "Bing et al."),
+  pride_prejudice %>%
+    inner_join(get_sentiments("nrc") %>%
+      filter(sentiment %in% c(
+        "positive",
+        "negative"
+      ))) %>%
+    mutate(method = "NRC")
+) %>%
+  count(method, index = linenumber %/% 80, sentiment) %>%
+  spread(sentiment, n, fill = 0) %>%
+  mutate(sentiment = positive - negative)
+```
+
+
+```{r}
+bind_rows(
+  afinn,
+  bing_and_nrc
+) %>%
+  ggplot(aes(index, sentiment, fill = method)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~method, ncol = 1, scales = "free_y")
+```
+
+
+```{r}
+get_sentiments("nrc") %>%
+  filter(sentiment %in% c(
+    "positive",
+    "negative"
+  )) %>%
+  count(sentiment)
+get_sentiments("bing") %>%
+  count(sentiment)
+```
+
+
+### Most common positive and negative words
+
+```{r}
+bing_word_counts <- tidy_books %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  ungroup()
+bing_word_counts
+```
+
+
+```{r}
+bing_word_counts %>%
+  group_by(sentiment) %>%
+  top_n(10) %>%
+  ungroup() %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(word, n, fill = sentiment)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~sentiment, scales = "free_y") +
+  labs(
+    y = "Contribution to sentiment",
+    x = NULL
+  ) +
+  coord_flip()
+```
+
+
+```{r}
+custom_stop_words <- bind_rows(
+  tibble(
+    word = c("miss"),
+    lexicon = c("custom")
+  ),
+  stop_words
+)
+custom_stop_words
+```
+
+
+### Wordclouds
+
+
+```{r}
+library(wordcloud)
+tidy_books %>%
+  anti_join(stop_words) %>%
+  count(word) %>%
+  with(wordcloud(word, n, max.words = 100))
+```
+
+
+```{r}
+library(reshape2)
+tidy_books %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  acast(word ~ sentiment, value.var = "n", fill = 0) %>%
+  comparison.cloud(
+    colors = c("gray20", "gray80"),
+    max.words = 100
+  )
+```
+
+
+**Source**
+
+
+Silge, J., & Robinson, D. (2017). Text mining with R: A tidy approach. Sebastopol, CA: O'Reilly. 
+
+Chapter 2: Sentiment Analysis with Tidy Data
+
+See: www.tidytextmining.com/sentiment.html
+
+
+
+
+
+
+
+## Part 2: My Chosen Corpus
+
+**Sentiment Analysis of "The Black Experience IN America", a book written by Norman Coombs.**
+
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">
+
+We are going to analyze a book title "The Black Experience in America", written by Norman Coombs; found in gutenbergr package.
+It's a book that give a interpretative insight to the History, struggle and emancipation of the black race in America. It also talks about the immigration of the black race from Africa and the variety of rich contribution they have made to America.
+
+
+Source: [THE BLACK EXPERIENCE IN AMERICA](https://www.gutenberg.org/files/67/67-h/67-h.htm)
+
+
+</div> \hfill\break
+
+
+### Loading the package and tidying the dataset
+
+
+```{r message=FALSE}
+library(gutenbergr)
+```
+
+
+```{r}
+# Download the book id 67, "THE BLACK LIVE IN AMERICA"
+norman_book <- gutenberg_download(67)
+norman_book
+```
+
+
+
+```{r}
+# Restructure to one-token_per-row and remove stop words
+norman_book_tidy <- norman_book %>%
+  unnest_tokens(word, text) %>%
+  anti_join(stop_words)
+norman_book_tidy 
+```
+
+### Net Sentiment analysis across the book per chapter
+
+```{r}
+# Restructure to one-token_per-row and remove stop words
+norman_book_chapters <- norman_book %>% 
+  filter(text != "") %>%
+  
+  mutate(linenumber = row_number(),
+         
+         chapter = cumsum(str_detect(text, regex("(Chapter )([\\divxlc])", 
+                                                 
+            ignore_case =  TRUE
+            
+            )))
+         ) %>%
+  
+  ungroup()
+norman_book_chapters
+```
+
+Tidying by tokenizing and using afinn lexicon
+
+```{r}
+# tidying mybook_chapter by tokenizing and using afinn lexicon
+norman_book_chapters_tidy <- norman_book_chapters %>%
+  
+  unnest_tokens(word, text) %>%
+  inner_join(get_sentiments("afinn"))
+```
+### Sentiment analysis accross the book
+
+```{r}
+norman_books_rows_plot <- norman_book_chapters_tidy %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(index = linenumber %/% 20, sentiment) %>%
+  spread(sentiment, n, fill = 0) %>%
+  mutate(sentiment = positive - negative)
+ggplot(norman_books_rows_plot, aes(index, sentiment)) +
+  geom_col(show.legend = FALSE) +
+  
+  geom_col(fill = "red") +
+  
+   labs(title = "Net Sentiment accross the book") 
+```
+
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">
+
+From the 12 chapters contain in the book.We can see that the sentiment varies across the book. We are to analyze the net sentiment per chapter and the overall sentiment
+per chapter.
+
+</div> \hfill\break
+
+```{r}
+# Grouping needed variables
+norman_book_chapters_plot <- norman_book_chapters_tidy %>%
+  
+  select(chapter, value) %>%
+  
+  group_by(chapter) %>% 
+  
+  summarize(total_sentiment = sum(value))
+# Plot
+norman_book_chapters_plot %>%
+  
+  ggplot(aes(chapter, total_sentiment)) +
+  
+  geom_col(fill = "purple") +
+  
+   xlab("Index - chapter") +
+  
+  
+   ylab("Net Sentiment") + 
+  
+  labs(title = "Net Sentiment accross the book per chapter") 
+  
+```
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">
+
+From the graph above we can see that majority of the chapters have a net negative 
+sentiment with few positive sentiment; with the last chapter having the most negative sentiment while chapter 2 is the most positive.
+
+</div> \hfill\break
+
+
+
+### Overall sentiment 
+
+**Let take a look at the overall sentiment in the entire book using bing lexicon:**
+
+```{r}
+# Get "bing" lexicon for this analysis
+norman_book_overall_sentiment <- norman_book %>% 
+  unnest_tokens(word, text) %>%
+  inner_join(get_sentiments("bing")) %>% 
+  count(sentiment) %>%
+  mutate(total = n / sum(n))
+# Plot
+ggplot(norman_book_overall_sentiment) + 
+  
+  aes(x = sentiment, y = total) + 
+  geom_col(fill = "blue") + 
+  
+  xlab("Sentiment") +
+  ylab("Percent") + 
+ 
+  labs(title = "Overall Sentiment") + 
+  
+  geom_text(aes(label = round(total * 100, 2) , vjust = -.4))
+```
+
+**From the plot, it is clear that there are more negative contribution than positve contribution in the sentiment**
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">
+
+Let plot now the most positive and negative words below.
+We are going to use bing lexicon as well:
+
+</div> \hfill\break
+
+
+### Most positive words
+
+```{r}
+norman_book %>%
+  
+  unnest_tokens(word, text) %>%
+  inner_join(get_sentiments("bing")) %>% 
+  filter(sentiment == "positive") %>%
+  count(word, sentiment, sort = TRUE) %>% 
+  
+  top_n(15) %>%
+  mutate(word = reorder(word, n)) %>%
+  
+  ggplot() + 
+  
+  aes(x = word, y = n) +
+  labs(title = "Most Positive Words") + 
+  ylab("Contribution to sentiment") + 
+  xlab("Word") +
+  geom_col(fill = "purple") +
+  
+  
+  coord_flip()
+  
+  
+```
+
+
+### Most negative words
+
+```{r}
+norman_book %>%
+  
+  unnest_tokens(word, text) %>%
+  inner_join(get_sentiments("bing")) %>% 
+  filter(sentiment == "negative") %>%
+  count(word, sentiment, sort = TRUE) %>% 
+  
+  top_n(15) %>%
+  mutate(word = reorder(word, n)) %>%
+  
+  ggplot() + 
+  
+  aes(x = word, y = n) +
+  labs(title = "Most Negative Words") + 
+  ylab("Contribution to sentiment") + 
+  xlab("Word") +
+  geom_col(fill = "red") +
+  
+  
+  coord_flip() 
+  
+ 
+```
+
+
+
+```{r}
+library(wordcloud)
+```
+
+```{r}
+norman_book_tidy %>%
+  anti_join(stop_words) %>%
+  count(word) %>%
+  with(wordcloud(word, n, max.words = 100))
+```
+
+
+
+###    Sentiment Analysis with Loughran-MacDonald sentiment lexicon
+
+
+```{r}
+# Get loughran
+
+sentiment <- get_sentiments("loughran")
+
+```
+
+
+
+### Negative and Positive words
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">
+
+We want to compare both the positive and negative word that will be generated from the emotion in using the nrc lexicon and the loughran lexicon
+
+
+</div> \hfill\break
+
+```{r}
+  norman_book_chapters %>% 
+  unnest_tokens(word, text) %>% 
+  inner_join(get_sentiments("loughran")) %>%
+  filter(sentiment %in% c("positive", "negative")) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  group_by(sentiment) %>%
+  
+  top_n(10) %>%
+  
+  ggplot() + 
+  aes(x = reorder(word,desc(n)), y = n) + 
+  geom_col(fill = "violet") +
+  facet_grid(~sentiment, scales = "free_x")  + 
+  geom_text(aes(label = n, vjust = .4)) + 
+  labs(title = "Negative and  Positive words") +
+  
+  facet_wrap(~sentiment, ncol = 1, scales = "free_x") +
+  
+  
+  xlab("Word") + 
+  ylab("Count") 
+```
+
+
+
+
+### Words associated to positive and negative emotions using nrc lexicon
+
+
+**This is to compare how both lexicon classify words**
+
+```{r}
+  norman_book_chapters %>% 
+  unnest_tokens(word, text) %>% 
+  inner_join(get_sentiments("nrc")) %>%
+  filter(sentiment %in% c("positive", "negative")) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  group_by(sentiment) %>%
+  
+  top_n(10) %>%
+  
+  ggplot() + 
+  aes(x = reorder(word,desc(n)), y = n) + 
+  geom_col(fill = "violet") +
+  facet_grid(~sentiment, scales = "free_x")  + 
+  geom_text(aes(label = n, vjust = 0.4)) + 
+  labs(title = "Negative and Positive words") +
+  
+  facet_wrap(~sentiment, ncol = 1, scales = "free_x") +
+  
+  xlab("Word") + 
+  ylab("Count") 
+```
+
+### Findings
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">
+
+looking at on the two last graphs, we can see that the sentiment lexicons 
+don't classify words in the same way; even though the emotion is the same.
+For example, the most frequent words for "positive" emotion in both the lougran and the nrc sentiment lexicon are not the same. All the Negative and positive emotion for in the both sentiment lexicons are different.
+Thus, choosing a sentiment lexicon would depend on specific aspects we want to base our sentiment analysis. 
+
+</div> \hfill\break
