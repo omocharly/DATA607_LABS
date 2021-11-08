@@ -1,0 +1,130 @@
+---
+title: "Recommeder System"
+output: 
+  html_document:
+    theme: cerulean
+---
+
+#### Title: CUNY SPS MDS DATA607_Assignmt11"
+#### Author: Charles Ugiagbe
+#### Date: 11/7/2021
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<center> <h2>Recommendation Systems </h2></center>
+Recommender systems or recommender machine aim to predict users’ interests and recommend product items that quite likely are interesting for them. They are among the most powerful machine learning systems that online retailers implement in order to drive sales. Data required for recommender systems stems from explicit user ratings after watching a movie or listening to a song, from implicit search engine queries and purchase histories, or from other knowledge about the users/items themselves.
+
+
+###   Why do we need recommender systems?
+
+Companies using recommender systems focus on increasing sales as a result of very personalized offers and an enhanced customer experience.
+Recommendations typically speed up searches and make it easier for users to access content they’re interested in, and surprise them with offers they would have never searched for.
+The user starts to feel known and understood and is more likely to buy additional products or consume more content. By knowing what a user wants, the company gains competitive advantage and the threat of losing a customer to a competitor decreases.
+
+
+
+
+<center><h3>Scenario Design: Neflix</h3></center>
+<center>
+<img src = "https://github.com/omocharly/DATA607_PROJECTS/blob/main/Neflix%20image.png?raw=true" />
+</center>
+
+--------------------------------------------------------------------------------
+
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">
+
+###   Who are their target customer?
+
+Netflix is an internet streaming software which allows you to watch content through any internet connected device which include smart TVs, smartphones, tablets, game consoles etc. Netflix has 164 million subscribers globally. 
+Target customers are:
+  
+<li>Anyone who is up to date with technology</li>
+<li>People who do not have time to watch live tv</li>
+<li>People who like to binge watch tv shows and movies</li>
+<li>Households with kids</li>
+    
+</div> \hfill\break
+
+
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine"> 
+
+###   What are their key goals?
+    
+To get as much subscribers by improving the customer experience of their entertainment services. They try to get as much people to watch their content with unlimited hours.
+</div> \hfill\break
+
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">    
+    
+###   How can you help them accomplish those goals
+    
+As this assignment is based on Recommender systems, Netflix is continuously learning from the data which it collects from its viewers and uses that to optimize the business processes and of course recommender system as this is the best way to better understand their customers indirectly.
+</div> \hfill\break  
+
+###     How Neflix Recommender system works  
+
+Netflix recommender system is based on collaborative filtering therefore they need a certain amount of data to understand it before making recommendations. Collaborative filtering tackles the similarities between the users and movies to perform recommendations; meaning that the algorithm constantly finds the relationships between the users and in-turns does the recommendations.
+When users sign up, the software usaually require the individual to choose a few shows to jump start their recommendations. They learn about the customer's preference based on:
+
+<li>Group customers in clusters of people with similar tastes and preferences</li>
+<li>Information based on genre, actors, titles and the like</li>
+<li>Subcribers rating for Movies anytime they leave a rating</li>
+
+---------------------------------------------------------------------------------
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">  
+
+###   Neflix Recommendation Algorithms
+
+Generally, the steps (and functions) are listed below:
+<li>Create a sparse tensor: tf.SparseTensor(), for U and V matrix with random initialisation</li>
+<li>Create the loss function and optimiser: tf.losses.mean_squared_error(), to estimate the total loss with regularization penalty and SGD as the optimiser</li>
+<li>Create the model: tf.Session(), Initialise hyperparams, learning rate and embeddings</li>
+<li>Train the model: tf.Session.run(), to learn the embeddings of the feedback matrix and return the v and k as the embedding vector</li>
+<li>Show recommendations: df.DataFrame(), to show the closest movie with respect to the user queried</li>
+</div> \hfill\break
+
+
+###   Neflix Reverse Engineering
+
+<li>Netflix recommendations are heavily skewed towards what you are currently watching hence you get stuck in a recommendation rut or lack variety of choices. However, the more you watch, the more your suggested content becomes relevant</li>
+<li>Recommendations get diluted when multiple people are using the same profiles
+To show your approval, it is either a "thumbs up" or "thumbs down"</li>
+
+
+###     Recommendation
+
+Presently, Neflix are doing a great job. However, there could be another way to increase engagement, besides design tricks, algorithms, and inter-episode ads? 
+Here are a few ideas that could help them improve:
+
+<li>Due to the current trend on the anyone re-watching every movie or show that they previously watched is very slim will affect the efficiency of the sytem as it will lead the user's browsing experience less optimal, and as solution for this we recommend removing it or moving the list to the bottom would be good</li>
+
+<li>Make it easy for people to share titles right in the platform or on social media. Offer a smarter way to dive in and explore content on your own</li>
+
+<li>A good search engine with listed results would be ideal,with filters like "Added date," "Minimum user rating," "Movies Directors"</li>
+
+###       Reference
+
+*https://towardsdatascience.com/tensorflow-for-recommendation-model-part-1-19f6b6dc207d*
+
+*https://towardsdatascience.com/netflix-recommender-system-a-big-data-case-study-19cfa6d56ff5*
+
+*https://tryolabs.com/blog/introduction-to-recommender-systems*
