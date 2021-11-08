@@ -5,7 +5,7 @@ output:
     theme: cerulean
 ---
 
-#### Title: CUNY SPS MDS DATA607_Assignmt11"
+#### Title: CUNY SPS MDS DATA607_WK11_Discussion"
 #### Author: Charles Ugiagbe
 #### Date: 11/7/2021
 
@@ -16,6 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 <center> <h2>Recommendation Systems </h2></center>
+
 Recommender systems or recommender machine aim to predict users’ interests and recommend product items that quite likely are interesting for them. They are among the most powerful machine learning systems that online retailers implement in order to drive sales. Data required for recommender systems stems from explicit user ratings after watching a movie or listening to a song, from implicit search engine queries and purchase histories, or from other knowledge about the users/items themselves.
 
 
@@ -128,3 +129,5 @@ Here are a few ideas that could help them improve:
 *https://towardsdatascience.com/netflix-recommender-system-a-big-data-case-study-19cfa6d56ff5*
 
 *https://tryolabs.com/blog/introduction-to-recommender-systems*
+
+*https://help.netflix.com/en/node/100639*
