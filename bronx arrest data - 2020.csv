@@ -1,0 +1,1771 @@
+County,Crime Category,Arrest Precinct,Date of Arrest,Calc Age at Offense,Category,Sex
+Bronx,BURGLARY,40,1/2/2020,16,Misdemeanor,Male
+Bronx,WEAPONS,40,1/2/2020,17,Felony,Male
+Bronx,ASSAULT,47,1/2/2020,17,Felony,Female
+Bronx,RECKLESS ENDANGERMNT,40,1/2/2020,17,Felony,Male
+Bronx,LARCENY,45,1/2/2020,16,Felony,Male
+Bronx,WEAPONS,40,1/2/2020,17,Felony,Male
+Bronx,WEAPONS,40,1/2/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,45,1/2/2020,16,Felony,Male
+Bronx,ROBBERY,47,1/3/2020,16,Felony,Male
+Bronx,ROBBERY,47,1/3/2020,16,Felony,Male
+Bronx,WEAPONS,44,1/3/2020,17,Felony,Male
+Bronx,ROBBERY,47,1/3/2020,15,Felony,Male
+Bronx,ROBBERY,47,1/3/2020,16,Felony,Male
+Bronx,SEXUAL ASSAULT,47,1/3/2020,14,Misdemeanor,Male
+Bronx,ROBBERY,47,1/3/2020,16,Felony,Male
+Bronx,ASSAULT,49,1/3/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,46,1/4/2020,14,Felony,Female
+Bronx,ASSAULT,40,1/4/2020,14,Misdemeanor,Female
+Bronx,ASSAULT,50,1/5/2020,11,Felony,Male
+Bronx,WEAPONS,44,1/6/2020,17,Misdemeanor,Male
+Bronx,LARCENY,41,1/6/2020,17,Felony,Male
+Bronx,WEAPONS,44,1/6/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,43,1/6/2020,16,Felony,Male
+Bronx,ROBBERY,47,1/6/2020,15,Felony,Male
+Bronx,ASSAULT,42,1/6/2020,16,Felony,Male
+Bronx,ROBBERY,41,1/6/2020,17,Felony,Male
+Bronx,HOMICIDE,42,1/6/2020,15,Felony,Male
+Bronx,MENACING,46,1/7/2020,16,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,46,1/7/2020,16,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,41,1/7/2020,13,Misdemeanor,Male
+Bronx,ROBBERY,48,1/7/2020,13,Felony,Male
+Bronx,ASSAULT,40,1/7/2020,14,Misdemeanor,Female
+Bronx,ASSAULT,40,1/8/2020,14,Felony,Male
+Bronx,ASSAULT,40,1/8/2020,11,Felony,Male
+Bronx,OTHER,44,1/8/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,42,1/9/2020,17,Felony,Male
+Bronx,ASSAULT,42,1/9/2020,17,Felony,Male
+Bronx,ROBBERY,41,1/9/2020,16,Felony,Male
+Bronx,ROBBERY,48,1/9/2020,17,Felony,Male
+Bronx,ASSAULT,48,1/9/2020,15,Misdemeanor,Male
+Bronx,HOMICIDE,42,1/10/2020,14,Felony,Male
+Bronx,HOMICIDE,40,1/10/2020,17,Felony,Male
+Bronx,RECKLESS ENDANGERMNT,52,1/10/2020,17,Misdemeanor,Male
+Bronx,RECKLESS ENDANGERMNT,52,1/10/2020,17,Misdemeanor,Male
+Bronx,RECKLESS ENDANGERMNT,52,1/10/2020,17,Misdemeanor,Male
+Bronx,MENACING,47,1/10/2020,13,Misdemeanor,Male
+Bronx,RECKLESS ENDANGERMNT,52,1/10/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,43,1/11/2020,16,Felony,Male
+Bronx,LARCENY,40,1/11/2020,17,Misdemeanor,Female
+Bronx,WEAPONS,43,1/11/2020,15,Felony,Male
+Bronx,WEAPONS,42,1/11/2020,17,Felony,Male
+Bronx,ROBBERY,44,1/11/2020,17,Felony,Male
+Bronx,ASSAULT,47,1/11/2020,16,Felony,Female
+Bronx,BURGLARY,48,1/12/2020,16,Felony,Male
+Bronx,HOMICIDE,42,1/12/2020,16,Felony,Male
+Bronx,ROBBERY,48,1/13/2020,14,Felony,Male
+Bronx,MARIJUANA,42,1/13/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,48,1/13/2020,16,Felony,Male
+Bronx,ROBBERY,48,1/13/2020,14,Felony,Male
+Bronx,SEXUAL ASSAULT,46,1/13/2020,13,Felony,Male
+Bronx,LARCENY,44,1/13/2020,17,Felony,Male
+Bronx,DRUG,42,1/13/2020,16,Felony,Male
+Bronx,ASSAULT,44,1/13/2020,17,Felony,Male
+Bronx,ROBBERY,46,1/14/2020,16,Felony,Male
+Bronx,ROBBERY,43,1/14/2020,15,Felony,Male
+Bronx,ROBBERY,43,1/14/2020,14,Felony,Male
+Bronx,CRIMINAL MISCHIEF,43,1/14/2020,16,Misdemeanor,Male
+Bronx,DRUG,40,1/14/2020,15,Felony,Male
+Bronx,ROBBERY,43,1/14/2020,15,Felony,Male
+Bronx,ASSAULT,43,1/14/2020,16,Felony,Male
+Bronx,ROBBERY,46,1/14/2020,16,Felony,Male
+Bronx,ASSAULT,49,1/14/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,46,1/14/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,43,1/14/2020,16,Felony,Male
+Bronx,ROBBERY,46,1/14/2020,16,Felony,Male
+Bronx,OTHER,40,1/14/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,46,1/15/2020,14,Felony,Female
+Bronx,MENACING,43,1/15/2020,15,Misdemeanor,Male
+Bronx,MARIJUANA,43,1/15/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,44,1/15/2020,15,Felony,Male
+Bronx,ASSAULT,47,1/15/2020,15,Felony,Female
+Bronx,ROBBERY,44,1/15/2020,16,Felony,Male
+Bronx,ROBBERY,44,1/15/2020,14,Felony,Male
+Bronx,ROBBERY,44,1/15/2020,15,Felony,Male
+Bronx,SEXUAL ASSAULT,46,1/15/2020,12,Felony,Male
+Bronx,ROBBERY,46,1/15/2020,13,Felony,Male
+Bronx,ROBBERY,44,1/15/2020,14,Felony,Female
+Bronx,ASSAULT,40,1/16/2020,17,Felony,Male
+Bronx,ASSAULT,47,1/16/2020,17,Misdemeanor,Male
+Bronx,LARCENY,41,1/16/2020,16,Felony,Male
+Bronx,CRIMINAL MISCHIEF,41,1/16/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,40,1/16/2020,12,Felony,Male
+Bronx,ROBBERY,40,1/16/2020,12,Felony,Male
+Bronx,ASSAULT,46,1/16/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,40,1/16/2020,12,Felony,Male
+Bronx,MENACING,48,1/16/2020,14,Misdemeanor,Female
+Bronx,MENACING,48,1/16/2020,14,Misdemeanor,Female
+Bronx,LARCENY,43,1/16/2020,15,Felony,Male
+Bronx,ROBBERY,42,1/16/2020,16,Felony,Male
+Bronx,MENACING,40,1/16/2020,16,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,46,1/17/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,44,1/17/2020,14,Felony,Female
+Bronx,ROBBERY,44,1/17/2020,15,Felony,Male
+Bronx,ASSAULT,44,1/17/2020,15,Felony,Male
+Bronx,CRIMINAL MISCHIEF,43,1/18/2020,13,Felony,Male
+Bronx,WEAPONS,40,1/19/2020,14,Felony,Male
+Bronx,ASSAULT,44,1/20/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,44,1/20/2020,14,Misdemeanor,Female
+Bronx,LARCENY,52,1/20/2020,15,Felony,Male
+Bronx,ASSAULT,44,1/20/2020,16,Felony,Female
+Bronx,LARCENY,43,1/20/2020,16,Felony,Male
+Bronx,ASSAULT,43,1/21/2020,12,Misdemeanor,Female
+Bronx,LARCENY,41,1/21/2020,14,Felony,Male
+Bronx,HOMICIDE,42,1/21/2020,16,Felony,Male
+Bronx,BURGLARY,49,1/21/2020,16,Felony,Male
+Bronx,SEXUAL ASSAULT,50,1/21/2020,17,Misdemeanor,Male
+Bronx,OTHER,46,1/21/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,44,1/21/2020,16,Felony,Female
+Bronx,ASSAULT,52,1/21/2020,14,Misdemeanor,Female
+Bronx,MENACING,50,1/22/2020,13,Misdemeanor,Male
+Bronx,LARCENY,43,1/22/2020,15,Felony,Male
+Bronx,ASSAULT,46,1/22/2020,15,Felony,Male
+Bronx,WEAPONS,50,1/22/2020,13,Misdemeanor,Male
+Bronx,RECKLESS ENDANGERMNT,43,1/22/2020,16,Misdemeanor,Male
+Bronx,LARCENY,43,1/22/2020,15,Felony,Male
+Bronx,LARCENY,43,1/22/2020,16,Felony,Male
+Bronx,WEAPONS,46,1/22/2020,15,Felony,Male
+Bronx,RECKLESS ENDANGERMNT,43,1/22/2020,15,Misdemeanor,Male
+Bronx,OTHER,46,1/22/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,43,1/22/2020,13,Felony,Male
+Bronx,MENACING,50,1/22/2020,13,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,50,1/22/2020,13,Felony,Male
+Bronx,WEAPONS,43,1/22/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,41,1/22/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,44,1/22/2020,16,Misdemeanor,Male
+Bronx,OTHER,41,1/22/2020,17,Misdemeanor,Female
+Bronx,RECKLESS ENDANGERMNT,47,1/22/2020,15,Misdemeanor,Male
+Bronx,OTHER,46,1/22/2020,16,Felony,Male
+Bronx,OTHER,46,1/22/2020,16,Felony,Male
+Bronx,ASSAULT,46,1/22/2020,17,Misdemeanor,Female
+Bronx,SEXUAL ASSAULT,46,1/22/2020,11,Felony,Male
+Bronx,ASSAULT,44,1/22/2020,12,Felony,Male
+Bronx,SEXUAL ASSAULT,46,1/22/2020,11,Felony,Male
+Bronx,ROBBERY,40,1/23/2020,13,Felony,Male
+Bronx,ROBBERY,46,1/23/2020,17,Felony,Male
+Bronx,ROBBERY,45,1/23/2020,15,Felony,Male
+Bronx,LARCENY,42,1/23/2020,15,Felony,Male
+Bronx,WEAPONS,44,1/23/2020,15,Felony,Male
+Bronx,ROBBERY,42,1/24/2020,15,Felony,Male
+Bronx,OTHER,41,1/24/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,47,1/24/2020,15,Misdemeanor,Female
+Bronx,ASSAULT,49,1/24/2020,13,Felony,Male
+Bronx,ASSAULT,49,1/24/2020,13,Felony,Male
+Bronx,ASSAULT,49,1/24/2020,13,Felony,Male
+Bronx,WEAPONS,49,1/24/2020,14,Felony,Male
+Bronx,MENACING,46,1/24/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,44,1/25/2020,16,Misdemeanor,Female
+Bronx,ASSAULT,45,1/26/2020,17,Felony,Male
+Bronx,LARCENY,40,1/26/2020,16,Misdemeanor,Female
+Bronx,ASSAULT,48,1/26/2020,17,Felony,Male
+Bronx,ROBBERY,46,1/27/2020,17,Felony,Female
+Bronx,ROBBERY,46,1/27/2020,17,Felony,Female
+Bronx,LARCENY,50,1/27/2020,17,Felony,Female
+Bronx,ASSAULT,42,1/27/2020,17,Felony,Female
+Bronx,ASSAULT,46,1/27/2020,17,Felony,Male
+Bronx,ASSAULT,46,1/27/2020,15,Felony,Male
+Bronx,CRIM POS STOLEN PROP,43,1/27/2020,13,Misdemeanor,Male
+Bronx,LARCENY,44,1/28/2020,16,Misdemeanor,Male
+Bronx,LARCENY,44,1/28/2020,16,Felony,Male
+Bronx,ASSAULT,49,1/28/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,44,1/28/2020,16,Felony,Male
+Bronx,AUTO THEFT,49,1/28/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,44,1/29/2020,17,Felony,Male
+Bronx,ASSAULT,44,1/29/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,49,1/29/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,43,1/29/2020,17,Misdemeanor,Female
+Bronx,CRIMINAL MISCHIEF,43,1/29/2020,14,Misdemeanor,Female
+Bronx,WEAPONS,41,1/29/2020,16,Felony,Male
+Bronx,DRUG,52,1/29/2020,16,Misdemeanor,Male
+Bronx,OTHER,48,1/30/2020,16,Misdemeanor,Male
+Bronx,OTHER,48,1/30/2020,16,Misdemeanor,Female
+Bronx,ASSAULT,41,1/30/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,43,1/31/2020,16,Misdemeanor,Female
+Bronx,WEAPONS,40,1/31/2020,15,Felony,Male
+Bronx,ROBBERY,48,1/31/2020,17,Felony,Male
+Bronx,ASSAULT,40,1/31/2020,14,Felony,Male
+Bronx,ASSAULT,41,1/31/2020,15,Felony,Female
+Bronx,ASSAULT,40,2/2/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,43,2/3/2020,17,Misdemeanor,Female
+Bronx,LARCENY,43,2/3/2020,15,Felony,Female
+Bronx,OTHER,45,2/3/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,49,2/3/2020,14,Felony,Female
+Bronx,CRIMINAL MISCHIEF,43,2/3/2020,17,Felony,Female
+Bronx,ROBBERY,45,2/3/2020,14,Felony,Male
+Bronx,WEAPONS,47,2/3/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,43,2/3/2020,17,Felony,Female
+Bronx,ASSAULT,49,2/3/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,49,2/3/2020,15,Felony,Male
+Bronx,ASSAULT,42,2/3/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,45,2/3/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,49,2/3/2020,16,Felony,Male
+Bronx,ROBBERY,44,2/3/2020,16,Felony,Male
+Bronx,ROBBERY,44,2/3/2020,16,Felony,Male
+Bronx,ASSAULT,40,2/3/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,40,2/3/2020,15,Felony,Male
+Bronx,LARCENY,43,2/4/2020,17,Felony,Female
+Bronx,LARCENY,43,2/4/2020,16,Felony,Male
+Bronx,ROBBERY,41,2/4/2020,17,Felony,Female
+Bronx,ASSAULT,46,2/4/2020,16,Misdemeanor,Female
+Bronx,ROBBERY,46,2/4/2020,15,Felony,Male
+Bronx,GRAFFITI,41,2/4/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,52,2/4/2020,13,Felony,Female
+Bronx,ROBBERY,45,2/4/2020,15,Felony,Male
+Bronx,ROBBERY,46,2/4/2020,15,Felony,Male
+Bronx,ROBBERY,46,2/4/2020,17,Felony,Male
+Bronx,ROBBERY,46,2/4/2020,17,Felony,Male
+Bronx,ROBBERY,46,2/4/2020,17,Felony,Male
+Bronx,ROBBERY,43,2/5/2020,14,Felony,Male
+Bronx,DRUG,40,2/5/2020,16,Felony,Female
+Bronx,LARCENY,49,2/5/2020,15,Felony,Male
+Bronx,DRUG,40,2/5/2020,17,Felony,Female
+Bronx,DRUG,40,2/5/2020,16,Misdemeanor,Female
+Bronx,DRUG,40,2/5/2020,17,Felony,Female
+Bronx,DRUG,40,2/5/2020,17,Misdemeanor,Female
+Bronx,LARCENY,41,2/5/2020,14,Felony,Female
+Bronx,MENACING,50,2/5/2020,13,Misdemeanor,Male
+Bronx,DRUG,40,2/5/2020,17,Misdemeanor,Female
+Bronx,MENACING,50,2/5/2020,13,Misdemeanor,Male
+Bronx,ROBBERY,48,2/5/2020,15,Felony,Male
+Bronx,CRIMINAL MISCHIEF,48,2/5/2020,16,Felony,Male
+Bronx,ROBBERY,45,2/5/2020,15,Felony,Male
+Bronx,ROBBERY,48,2/5/2020,16,Felony,Male
+Bronx,THEFT OF SERVICES,40,2/5/2020,17,Misdemeanor,Male
+Bronx,LARCENY,49,2/5/2020,13,Felony,Male
+Bronx,ROBBERY,48,2/5/2020,16,Felony,Male
+Bronx,ASSAULT,43,2/5/2020,15,Felony,Male
+Bronx,LARCENY,48,2/6/2020,16,Misdemeanor,Female
+Bronx,CRIM POS STOLEN PROP,46,2/6/2020,17,Misdemeanor,Female
+Bronx,ROBBERY,49,2/6/2020,17,Felony,Male
+Bronx,ASSAULT,48,2/6/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,48,2/6/2020,16,Felony,Female
+Bronx,LARCENY,48,2/6/2020,16,Misdemeanor,Female
+Bronx,ROBBERY,48,2/6/2020,16,Felony,Female
+Bronx,LARCENY,46,2/6/2020,16,Felony,Female
+Bronx,ASSAULT,41,2/6/2020,14,Felony,Female
+Bronx,LARCENY,46,2/6/2020,17,Felony,Female
+Bronx,ROBBERY,44,2/6/2020,17,Felony,Male
+Bronx,LARCENY,47,2/6/2020,15,Felony,Male
+Bronx,WEAPONS,46,2/6/2020,16,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,44,2/6/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,52,2/7/2020,17,Misdemeanor,Male
+Bronx,BURGLARY,42,2/7/2020,14,Felony,Female
+Bronx,BURGLARY,43,2/7/2020,15,Felony,Female
+Bronx,ROBBERY,40,2/7/2020,17,Felony,Male
+Bronx,ROBBERY,40,2/7/2020,16,Felony,Male
+Bronx,ROBBERY,40,2/7/2020,17,Felony,Male
+Bronx,ASSAULT,52,2/7/2020,16,Felony,Female
+Bronx,ROBBERY,40,2/7/2020,16,Felony,Male
+Bronx,ROBBERY,40,2/7/2020,15,Felony,Male
+Bronx,ASSAULT,45,2/7/2020,14,Felony,Male
+Bronx,ASSAULT,40,2/7/2020,15,Misdemeanor,Female
+Bronx,SEXUAL ASSAULT,41,2/7/2020,14,Misdemeanor,Male
+Bronx,OTHER,52,2/8/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,43,2/8/2020,13,Felony,Male
+Bronx,ROBBERY,43,2/8/2020,12,Felony,Male
+Bronx,ROBBERY,43,2/8/2020,10,Felony,Male
+Bronx,ROBBERY,43,2/8/2020,12,Felony,Male
+Bronx,CRIM POS STOLEN PROP,52,2/8/2020,14,Misdemeanor,Male
+Bronx,OTHER,48,2/8/2020,15,Misdemeanor,Male
+Bronx,BURGLARY,48,2/9/2020,15,Felony,Male
+Bronx,ASSAULT,43,2/9/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,52,2/9/2020,13,Felony,Female
+Bronx,ASSAULT,43,2/9/2020,17,Misdemeanor,Male
+Bronx,BURGLARY,47,2/9/2020,17,Felony,Male
+Bronx,BURGLARY,48,2/9/2020,15,Felony,Male
+Bronx,ASSAULT,49,2/9/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,49,2/9/2020,17,Misdemeanor,Female
+Bronx,LARCENY,44,2/10/2020,17,Felony,Male
+Bronx,HOMICIDE,44,2/10/2020,17,Felony,Male
+Bronx,ROBBERY,41,2/11/2020,16,Felony,Male
+Bronx,WEAPONS,42,2/11/2020,15,Misdemeanor,Male
+Bronx,OTHER,49,2/11/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,44,2/12/2020,16,Felony,Male
+Bronx,LARCENY,48,2/12/2020,15,Misdemeanor,Male
+Bronx,LARCENY,48,2/12/2020,15,Misdemeanor,Male
+Bronx,LARCENY,48,2/12/2020,15,Felony,Male
+Bronx,SEXUAL ASSAULT,47,2/12/2020,15,Misdemeanor,Male
+Bronx,KIDNAPPING,52,2/12/2020,14,Misdemeanor,Male
+Bronx,ROBBERY,52,2/12/2020,17,Felony,Male
+Bronx,ASSAULT,45,2/12/2020,13,Felony,Male
+Bronx,ROBBERY,44,2/12/2020,15,Felony,Male
+Bronx,ROBBERY,40,2/12/2020,17,Felony,Male
+Bronx,LARCENY,44,2/12/2020,16,Felony,Male
+Bronx,LARCENY,44,2/12/2020,15,Felony,Male
+Bronx,BURGLARY,42,2/12/2020,17,Felony,Female
+Bronx,FORGERY,44,2/12/2020,17,Misdemeanor,Female
+Bronx,OTHER,40,2/12/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,46,2/13/2020,15,Felony,Female
+Bronx,ASSAULT,41,2/13/2020,15,Felony,Female
+Bronx,CRIMINAL MISCHIEF,46,2/13/2020,13,Felony,Female
+Bronx,ROBBERY,43,2/13/2020,16,Felony,Male
+Bronx,ASSAULT,41,2/13/2020,14,Felony,Female
+Bronx,DRUG,43,2/13/2020,17,Misdemeanor,Male
+Bronx,OTHER,41,2/13/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,41,2/13/2020,14,Felony,Female
+Bronx,ASSAULT,41,2/13/2020,15,Felony,Female
+Bronx,ASSAULT,41,2/13/2020,16,Felony,Female
+Bronx,WEAPONS,40,2/13/2020,17,Felony,Male
+Bronx,ASSAULT,40,2/13/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,40,2/13/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,45,2/14/2020,13,Felony,Male
+Bronx,ASSAULT,40,2/14/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,40,2/14/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,48,2/14/2020,16,Felony,Male
+Bronx,MENACING,43,2/14/2020,16,Misdemeanor,Male
+Bronx,LARCENY,43,2/14/2020,14,Misdemeanor,Male
+Bronx,LARCENY,40,2/15/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,43,2/15/2020,14,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,43,2/15/2020,13,Misdemeanor,Male
+Bronx,ASSAULT,40,2/15/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,52,2/15/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,40,2/15/2020,17,Misdemeanor,Male
+Bronx,MENACING,45,2/15/2020,13,Misdemeanor,Male
+Bronx,ASSAULT,52,2/15/2020,17,Felony,Male
+Bronx,ASSAULT,40,2/16/2020,17,Felony,Male
+Bronx,ASSAULT,40,2/16/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,46,2/16/2020,11,Felony,Male
+Bronx,RECKLESS ENDANGERMNT,48,2/16/2020,14,Misdemeanor,Male
+Bronx,ROBBERY,46,2/16/2020,13,Felony,Male
+Bronx,ROBBERY,44,2/17/2020,15,Felony,Male
+Bronx,NO MATCH,44,2/17/2020,16,Felony,Male
+Bronx,SEXUAL ASSAULT,41,2/17/2020,12,Felony,Male
+Bronx,ROBBERY,44,2/17/2020,16,Felony,Male
+Bronx,LARCENY,44,2/17/2020,16,Felony,Male
+Bronx,LARCENY,44,2/17/2020,17,Felony,Male
+Bronx,OTHER,44,2/18/2020,17,Misdemeanor,Male
+Bronx,DRUG,46,2/18/2020,17,Misdemeanor,Male
+Bronx,OTHER,44,2/18/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,42,2/18/2020,16,Felony,Male
+Bronx,WEAPONS,48,2/18/2020,16,Felony,Female
+Bronx,ROBBERY,47,2/18/2020,17,Felony,Male
+Bronx,ROBBERY,49,2/18/2020,16,Felony,Male
+Bronx,ASSAULT,44,2/18/2020,16,Felony,Male
+Bronx,ASSAULT,44,2/18/2020,17,Felony,Male
+Bronx,ROBBERY,44,2/18/2020,16,Felony,Male
+Bronx,DRUG,46,2/18/2020,17,Felony,Male
+Bronx,ROBBERY,47,2/18/2020,16,Felony,Male
+Bronx,ROBBERY,42,2/18/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,48,2/19/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,40,2/19/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,40,2/19/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,41,2/19/2020,16,Felony,Male
+Bronx,ASSAULT,40,2/19/2020,14,Misdemeanor,Female
+Bronx,LARCENY,48,2/19/2020,15,Misdemeanor,Male
+Bronx,BURGLARY,41,2/19/2020,17,Felony,Male
+Bronx,ROBBERY,44,2/20/2020,15,Felony,Male
+Bronx,ASSAULT,42,2/20/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,43,2/20/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,48,2/20/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,42,2/20/2020,16,Felony,Male
+Bronx,ASSAULT,44,2/20/2020,17,Misdemeanor,Male
+Bronx,LARCENY,47,2/21/2020,15,Felony,Male
+Bronx,LARCENY,47,2/21/2020,15,Felony,Male
+Bronx,ROBBERY,48,2/22/2020,17,Felony,Male
+Bronx,ASSAULT,49,2/22/2020,12,Misdemeanor,Female
+Bronx,LARCENY,46,2/22/2020,15,Felony,Male
+Bronx,ASSAULT,42,2/22/2020,16,Felony,Female
+Bronx,ROBBERY,43,2/22/2020,14,Felony,Male
+Bronx,ROBBERY,43,2/22/2020,15,Felony,Male
+Bronx,ASSAULT,47,2/23/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,46,2/23/2020,12,Felony,Male
+Bronx,ASSAULT,42,2/23/2020,16,Misdemeanor,Female
+Bronx,ASSAULT,46,2/23/2020,10,Felony,Female
+Bronx,ROBBERY,40,2/23/2020,16,Felony,Female
+Bronx,THEFT OF SERVICES,46,2/23/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,44,2/23/2020,16,Felony,Male
+Bronx,ROBBERY,44,2/23/2020,16,Felony,Male
+Bronx,ROBBERY,40,2/23/2020,14,Felony,Female
+Bronx,ASSAULT,40,2/24/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,48,2/24/2020,14,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,48,2/24/2020,14,Misdemeanor,Male
+Bronx,OTHER,46,2/24/2020,13,Misdemeanor,Male
+Bronx,OTHER,46,2/24/2020,15,Misdemeanor,Male
+Bronx,OTHER,46,2/24/2020,13,Misdemeanor,Male
+Bronx,OTHER,46,2/24/2020,15,Misdemeanor,Male
+Bronx,OTHER,46,2/24/2020,13,Misdemeanor,Male
+Bronx,ASSAULT,43,2/24/2020,16,Felony,Male
+Bronx,ROBBERY,40,2/24/2020,17,Felony,Female
+Bronx,ASSAULT,43,2/24/2020,16,Felony,Male
+Bronx,ASSAULT,48,2/24/2020,15,Felony,Male
+Bronx,ASSAULT,46,2/25/2020,15,Felony,Female
+Bronx,WEAPONS,40,2/26/2020,16,Felony,Male
+Bronx,MENACING,45,2/26/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,40,2/26/2020,16,Misdemeanor,Male
+Bronx,LARCENY,43,2/26/2020,15,Felony,Male
+Bronx,LARCENY,47,2/26/2020,12,Misdemeanor,Male
+Bronx,OTHER,50,2/26/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,40,2/26/2020,17,Felony,Male
+Bronx,LARCENY,40,2/26/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,47,2/26/2020,11,Felony,Male
+Bronx,ROBBERY,40,2/27/2020,15,Felony,Male
+Bronx,ROBBERY,40,2/27/2020,17,Felony,Male
+Bronx,ASSAULT,40,2/27/2020,15,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,41,2/27/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,47,2/27/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,40,2/27/2020,15,Felony,Male
+Bronx,LARCENY,49,2/27/2020,17,Felony,Male
+Bronx,ROBBERY,40,2/27/2020,12,Felony,Male
+Bronx,ROBBERY,44,2/27/2020,17,Felony,Male
+Bronx,ROBBERY,40,2/27/2020,12,Felony,Male
+Bronx,ROBBERY,40,2/27/2020,12,Felony,Male
+Bronx,ROBBERY,49,2/27/2020,17,Felony,Male
+Bronx,ASSAULT,40,2/28/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,44,2/28/2020,16,Felony,Female
+Bronx,CRIM POS STOLEN PROP,46,2/28/2020,17,Felony,Female
+Bronx,RECKLESS ENDANGERMNT,46,2/29/2020,16,Misdemeanor,Female
+Bronx,ROBBERY,40,2/29/2020,14,Felony,Male
+Bronx,ASSAULT,40,2/29/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,40,2/29/2020,14,Felony,Male
+Bronx,ASSAULT,40,3/1/2020,17,Felony,Female
+Bronx,ROBBERY,46,3/1/2020,14,Felony,Female
+Bronx,ROBBERY,48,3/1/2020,14,Felony,Male
+Bronx,ROBBERY,48,3/1/2020,14,Felony,Male
+Bronx,WEAPONS,43,3/1/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,48,3/1/2020,14,Felony,Male
+Bronx,ROBBERY,48,3/1/2020,14,Felony,Male
+Bronx,ASSAULT,40,3/1/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,43,3/2/2020,14,Felony,Male
+Bronx,ROBBERY,45,3/2/2020,16,Felony,Female
+Bronx,ROBBERY,43,3/2/2020,16,Felony,Female
+Bronx,ROBBERY,45,3/2/2020,14,Felony,Male
+Bronx,ROBBERY,43,3/2/2020,14,Felony,Male
+Bronx,ROBBERY,45,3/2/2020,15,Felony,Male
+Bronx,ROBBERY,45,3/2/2020,14,Felony,Male
+Bronx,ROBBERY,45,3/2/2020,14,Felony,Male
+Bronx,ROBBERY,43,3/2/2020,14,Felony,Male
+Bronx,ROBBERY,43,3/2/2020,15,Felony,Male
+Bronx,ROBBERY,45,3/2/2020,15,Felony,Male
+Bronx,ROBBERY,46,3/2/2020,14,Felony,Female
+Bronx,ROBBERY,43,3/2/2020,15,Felony,Male
+Bronx,ROBBERY,40,3/2/2020,14,Felony,Male
+Bronx,ROBBERY,41,3/2/2020,17,Felony,Male
+Bronx,ASSAULT,40,3/2/2020,17,Misdemeanor,Male
+Bronx,LARCENY,49,3/2/2020,15,Felony,Male
+Bronx,ROBBERY,41,3/2/2020,17,Felony,Male
+Bronx,LARCENY,49,3/2/2020,15,Felony,Male
+Bronx,ASSAULT,49,3/3/2020,16,Felony,Male
+Bronx,SEXUAL ASSAULT,41,3/3/2020,16,Felony,Male
+Bronx,DRUG,40,3/3/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,47,3/3/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,43,3/3/2020,17,Felony,Female
+Bronx,MARIJUANA,47,3/4/2020,14,Misdemeanor,Male
+Bronx,OTHER,47,3/4/2020,17,Misdemeanor,Female
+Bronx,THEFT OF SERVICES,44,3/4/2020,16,Misdemeanor,Male
+Bronx,THEFT OF SERVICES,44,3/4/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,46,3/4/2020,17,Felony,Male
+Bronx,ASSAULT,47,3/4/2020,17,Felony,Female
+Bronx,WEAPONS,44,3/4/2020,17,Felony,Male
+Bronx,MARIJUANA,47,3/4/2020,14,Misdemeanor,Male
+Bronx,ROBBERY,40,3/4/2020,17,Felony,Male
+Bronx,ROBBERY,48,3/4/2020,15,Felony,Male
+Bronx,WEAPONS,46,3/4/2020,17,Felony,Male
+Bronx,ASSAULT,48,3/4/2020,15,Felony,Male
+Bronx,ROBBERY,48,3/4/2020,15,Felony,Male
+Bronx,ROBBERY,48,3/4/2020,13,Felony,Male
+Bronx,WEAPONS,40,3/5/2020,17,Felony,Male
+Bronx,WEAPONS,40,3/5/2020,17,Felony,Male
+Bronx,ASSAULT,43,3/5/2020,17,Felony,Male
+Bronx,WEAPONS,40,3/5/2020,17,Felony,Male
+Bronx,WEAPONS,40,3/5/2020,17,Felony,Male
+Bronx,WEAPONS,40,3/5/2020,17,Felony,Male
+Bronx,WEAPONS,40,3/5/2020,17,Felony,Male
+Bronx,ROBBERY,41,3/5/2020,16,Felony,Male
+Bronx,WEAPONS,40,3/5/2020,17,Felony,Male
+Bronx,ROBBERY,46,3/5/2020,16,Felony,Male
+Bronx,LARCENY,46,3/5/2020,16,Felony,Male
+Bronx,LARCENY,46,3/5/2020,16,Felony,Male
+Bronx,ROBBERY,40,3/5/2020,15,Felony,Male
+Bronx,ROBBERY,44,3/5/2020,14,Felony,Male
+Bronx,ROBBERY,44,3/5/2020,14,Felony,Male
+Bronx,ROBBERY,44,3/5/2020,14,Felony,Male
+Bronx,LARCENY,41,3/5/2020,16,Felony,Male
+Bronx,ROBBERY,41,3/5/2020,16,Felony,Male
+Bronx,OTHER,44,3/5/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,48,3/5/2020,15,Misdemeanor,Female
+Bronx,ROBBERY,50,3/6/2020,13,Felony,Female
+Bronx,LARCENY,40,3/6/2020,13,Felony,Male
+Bronx,NO MATCH,50,3/6/2020,13,Felony,Male
+Bronx,ROBBERY,47,3/6/2020,13,Felony,Male
+Bronx,SEXUAL ASSAULT,46,3/6/2020,14,Misdemeanor,Male
+Bronx,ROBBERY,50,3/6/2020,13,Felony,Male
+Bronx,CRIM POS STOLEN PROP,44,3/6/2020,14,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,44,3/6/2020,14,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,46,3/6/2020,16,Misdemeanor,Male
+Bronx,LARCENY,46,3/6/2020,14,Felony,Male
+Bronx,LARCENY,46,3/6/2020,14,Felony,Male
+Bronx,ASSAULT,42,3/7/2020,16,Felony,Male
+Bronx,ASSAULT,42,3/7/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,42,3/7/2020,16,Misdemeanor,Male
+Bronx,MENACING,44,3/7/2020,17,Misdemeanor,Female
+Bronx,ROBBERY,46,3/8/2020,15,Felony,Male
+Bronx,LARCENY,46,3/8/2020,15,Felony,Male
+Bronx,MENACING,41,3/8/2020,16,Misdemeanor,Male
+Bronx,OTHER,40,3/9/2020,13,Misdemeanor,Female
+Bronx,ASSAULT,52,3/9/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,41,3/10/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,49,3/10/2020,15,Felony,Female
+Bronx,WEAPONS,48,3/10/2020,14,Felony,Male
+Bronx,LARCENY,44,3/10/2020,15,Misdemeanor,Female
+Bronx,ROBBERY,44,3/10/2020,16,Felony,Female
+Bronx,ROBBERY,44,3/10/2020,16,Felony,Female
+Bronx,ASSAULT,40,3/10/2020,14,Misdemeanor,Male
+Bronx,LARCENY,44,3/10/2020,17,Misdemeanor,Female
+Bronx,CRIMINAL MISCHIEF,40,3/10/2020,16,Misdemeanor,Male
+Bronx,LARCENY,52,3/11/2020,13,Misdemeanor,Female
+Bronx,ASSAULT,40,3/11/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,46,3/11/2020,14,Misdemeanor,Female
+Bronx,ASSAULT,46,3/11/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,46,3/11/2020,17,Felony,Female
+Bronx,ASSAULT,46,3/11/2020,14,Misdemeanor,Female
+Bronx,ASSAULT,40,3/11/2020,17,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,49,3/11/2020,16,Misdemeanor,Female
+Bronx,OTHER,41,3/11/2020,14,Misdemeanor,Male
+Bronx,OTHER,41,3/11/2020,14,Misdemeanor,Male
+Bronx,MENACING,49,3/11/2020,15,Misdemeanor,Female
+Bronx,ROBBERY,48,3/12/2020,13,Felony,Female
+Bronx,HOMICIDE,44,3/12/2020,14,Felony,Male
+Bronx,HOMICIDE,44,3/12/2020,14,Felony,Male
+Bronx,CRIMINAL MISCHIEF,43,3/12/2020,17,Felony,Female
+Bronx,MENACING,46,3/12/2020,13,Misdemeanor,Female
+Bronx,CRIMINAL MISCHIEF,43,3/12/2020,17,Misdemeanor,Female
+Bronx,LARCENY,48,3/12/2020,13,Misdemeanor,Female
+Bronx,ROBBERY,48,3/12/2020,13,Felony,Female
+Bronx,CRIMINAL MISCHIEF,52,3/12/2020,15,Felony,Male
+Bronx,ROBBERY,49,3/12/2020,17,Felony,Male
+Bronx,ROBBERY,49,3/12/2020,17,Felony,Male
+Bronx,ROBBERY,49,3/12/2020,17,Felony,Male
+Bronx,ROBBERY,49,3/12/2020,17,Felony,Male
+Bronx,LARCENY,50,3/12/2020,15,Felony,Male
+Bronx,ROBBERY,47,3/12/2020,17,Felony,Male
+Bronx,ASSAULT,43,3/12/2020,14,Felony,Female
+Bronx,ROBBERY,49,3/13/2020,17,Felony,Male
+Bronx,MENACING,42,3/13/2020,17,Misdemeanor,Male
+Bronx,MENACING,42,3/13/2020,17,Misdemeanor,Male
+Bronx,MENACING,42,3/13/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,42,3/13/2020,17,Felony,Male
+Bronx,ROBBERY,41,3/13/2020,17,Felony,Male
+Bronx,MENACING,42,3/13/2020,17,Misdemeanor,Male
+Bronx,MENACING,42,3/13/2020,17,Misdemeanor,Male
+Bronx,MENACING,42,3/13/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,42,3/14/2020,17,Felony,Male
+Bronx,WEAPONS,43,3/14/2020,17,Felony,Male
+Bronx,WEAPONS,43,3/14/2020,16,Felony,Male
+Bronx,ASSAULT,43,3/14/2020,16,Felony,Female
+Bronx,OTHER,50,3/14/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,43,3/14/2020,15,Felony,Male
+Bronx,MENACING,42,3/14/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,47,3/14/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,43,3/14/2020,15,Felony,Male
+Bronx,WEAPONS,48,3/15/2020,16,Felony,Male
+Bronx,ASSAULT,48,3/15/2020,14,Misdemeanor,Female
+Bronx,WEAPONS,48,3/15/2020,17,Felony,Male
+Bronx,OTHER,40,3/15/2020,16,Misdemeanor,Female
+Bronx,LARCENY,46,3/15/2020,11,Misdemeanor,Male
+Bronx,OTHER,42,3/15/2020,17,Misdemeanor,Male
+Bronx,LARCENY,45,3/15/2020,13,Felony,Male
+Bronx,LARCENY,44,3/15/2020,17,Felony,Male
+Bronx,ROBBERY,41,3/16/2020,16,Felony,Male
+Bronx,ROBBERY,41,3/16/2020,15,Felony,Male
+Bronx,ASSAULT,47,3/17/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,52,3/18/2020,15,Felony,Male
+Bronx,ROBBERY,41,3/18/2020,17,Felony,Male
+Bronx,WEAPONS,40,3/18/2020,16,Felony,Male
+Bronx,ROBBERY,52,3/18/2020,14,Felony,Male
+Bronx,ROBBERY,44,3/18/2020,15,Felony,Male
+Bronx,ROBBERY,44,3/18/2020,15,Felony,Male
+Bronx,ROBBERY,49,3/18/2020,14,Felony,Male
+Bronx,ASSAULT,52,3/18/2020,17,Felony,Male
+Bronx,ROBBERY,41,3/19/2020,15,Felony,Male
+Bronx,ROBBERY,41,3/19/2020,15,Felony,Male
+Bronx,ROBBERY,41,3/19/2020,15,Felony,Male
+Bronx,ROBBERY,41,3/19/2020,16,Felony,Male
+Bronx,LARCENY,46,3/19/2020,14,Misdemeanor,Female
+Bronx,ROBBERY,46,3/19/2020,14,Felony,Female
+Bronx,FORGERY,45,3/19/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,41,3/19/2020,16,Felony,Male
+Bronx,LARCENY,52,3/19/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,41,3/19/2020,15,Felony,Male
+Bronx,BURGLARY,52,3/19/2020,15,Felony,Female
+Bronx,ROBBERY,41,3/19/2020,15,Felony,Male
+Bronx,SEXUAL ASSAULT,43,3/19/2020,14,Felony,Male
+Bronx,WEAPONS,48,3/19/2020,14,Felony,Male
+Bronx,LARCENY,52,3/19/2020,17,Felony,Male
+Bronx,SEXUAL ASSAULT,43,3/19/2020,14,Felony,Male
+Bronx,OTHER,44,3/19/2020,16,Misdemeanor,Male
+Bronx,OTHER,43,3/19/2020,15,Misdemeanor,Male
+Bronx,BURGLARY,52,3/19/2020,14,Felony,Female
+Bronx,RECKLESS ENDANGERMNT,45,3/19/2020,16,Misdemeanor,Female
+Bronx,ROBBERY,46,3/20/2020,13,Felony,Female
+Bronx,LARCENY,49,3/20/2020,16,Felony,Female
+Bronx,ROBBERY,46,3/20/2020,12,Felony,Female
+Bronx,AUTO THEFT,50,3/21/2020,15,Misdemeanor,Male
+Bronx,AUTO THEFT,50,3/21/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,43,3/21/2020,17,Misdemeanor,Female
+Bronx,MENACING,40,3/22/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,47,3/22/2020,16,Felony,Female
+Bronx,SEXUAL ASSAULT,43,3/23/2020,16,Felony,Male
+Bronx,ROBBERY,41,3/23/2020,17,Felony,Female
+Bronx,ROBBERY,44,3/23/2020,16,Felony,Male
+Bronx,ASSAULT,40,3/23/2020,17,Misdemeanor,Male
+Bronx,BURGLARY,40,3/24/2020,17,Felony,Male
+Bronx,OTHER,43,3/24/2020,16,Felony,Female
+Bronx,OTHER,43,3/24/2020,16,Felony,Female
+Bronx,WEAPONS,42,3/25/2020,17,Felony,Male
+Bronx,LARCENY,40,3/25/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,48,3/25/2020,16,Felony,Female
+Bronx,OTHER,52,3/26/2020,14,Misdemeanor,Male
+Bronx,OTHER,42,3/26/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,42,3/26/2020,15,Felony,Male
+Bronx,ASSAULT,52,3/27/2020,15,Felony,Male
+Bronx,ASSAULT,44,3/28/2020,15,Felony,Female
+Bronx,ASSAULT,44,3/28/2020,15,Felony,Female
+Bronx,ASSAULT,44,3/28/2020,15,Felony,Female
+Bronx,BURGLARY,46,3/30/2020,14,Misdemeanor,Female
+Bronx,ROBBERY,41,3/31/2020,15,Felony,Male
+Bronx,MENACING,46,3/31/2020,17,Misdemeanor,Female
+Bronx,RECKLESS ENDANGERMNT,47,3/31/2020,17,Misdemeanor,Male
+Bronx,AUTO THEFT,48,3/31/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,48,4/1/2020,15,Felony,Male
+Bronx,ROBBERY,52,4/1/2020,14,Felony,Female
+Bronx,ROBBERY,52,4/1/2020,14,Felony,Female
+Bronx,ROBBERY,52,4/1/2020,16,Felony,Female
+Bronx,ROBBERY,52,4/1/2020,16,Felony,Female
+Bronx,ASSAULT,47,4/1/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,46,4/2/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,46,4/3/2020,13,Misdemeanor,Male
+Bronx,ASSAULT,40,4/3/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,40,4/3/2020,16,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,48,4/4/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,48,4/4/2020,15,Felony,Male
+Bronx,HOMICIDE,47,4/4/2020,17,Felony,Male
+Bronx,WEAPONS,40,4/5/2020,16,Felony,Male
+Bronx,ASSAULT,42,4/6/2020,17,Felony,Male
+Bronx,ASSAULT,42,4/6/2020,17,Felony,Male
+Bronx,ASSAULT,43,4/7/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,40,4/7/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,49,4/8/2020,16,Felony,Female
+Bronx,WEAPONS,40,4/8/2020,17,Felony,Female
+Bronx,WEAPONS,46,4/9/2020,17,Felony,Male
+Bronx,ROBBERY,43,4/9/2020,16,Felony,Male
+Bronx,BURGLARY,42,4/9/2020,15,Felony,Male
+Bronx,BURGLARY,42,4/9/2020,13,Felony,Male
+Bronx,LARCENY,47,4/9/2020,17,Felony,Male
+Bronx,BURGLARY,42,4/9/2020,17,Felony,Male
+Bronx,BURGLARY,42,4/9/2020,16,Felony,Male
+Bronx,WEAPONS,46,4/9/2020,17,Misdemeanor,Male
+Bronx,LARCENY,42,4/10/2020,16,Felony,Female
+Bronx,ASSAULT,40,4/13/2020,17,Felony,Female
+Bronx,ASSAULT,40,4/13/2020,16,Misdemeanor,Male
+Bronx,LARCENY,45,4/14/2020,17,Misdemeanor,Female
+Bronx,AUTO THEFT,43,4/15/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,41,4/15/2020,15,Felony,Male
+Bronx,AUTO THEFT,43,4/15/2020,17,Misdemeanor,Male
+Bronx,HOMICIDE,46,4/15/2020,17,Felony,Male
+Bronx,ROBBERY,41,4/15/2020,15,Felony,Male
+Bronx,ROBBERY,40,4/15/2020,15,Felony,Male
+Bronx,ASSAULT,43,4/15/2020,17,Misdemeanor,Female
+Bronx,ROBBERY,41,4/15/2020,15,Felony,Male
+Bronx,ROBBERY,41,4/15/2020,15,Felony,Male
+Bronx,ROBBERY,41,4/15/2020,16,Felony,Male
+Bronx,ROBBERY,41,4/15/2020,15,Felony,Male
+Bronx,ROBBERY,41,4/15/2020,15,Felony,Male
+Bronx,RECKLESS ENDANGERMNT,40,4/16/2020,16,Felony,Male
+Bronx,AUTO THEFT,44,4/16/2020,16,Felony,Male
+Bronx,BURGLARY,44,4/16/2020,16,Felony,Male
+Bronx,ROBBERY,46,4/16/2020,17,Felony,Male
+Bronx,WEAPONS,52,4/17/2020,15,Felony,Male
+Bronx,ASSAULT,48,4/18/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,40,4/18/2020,14,Misdemeanor,Female
+Bronx,ROBBERY,48,4/18/2020,15,Felony,Male
+Bronx,SEXUAL ASSAULT,40,4/18/2020,14,Misdemeanor,Male
+Bronx,ASSAULT,40,4/19/2020,16,Felony,Male
+Bronx,ASSAULT,40,4/19/2020,17,Felony,Male
+Bronx,ASSAULT,40,4/19/2020,16,Felony,Male
+Bronx,ASSAULT,40,4/19/2020,17,Felony,Male
+Bronx,ASSAULT,44,4/20/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,43,4/20/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,40,4/21/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,47,4/21/2020,17,Felony,Female
+Bronx,ROBBERY,41,4/22/2020,17,Felony,Male
+Bronx,LARCENY,46,4/22/2020,16,Felony,Male
+Bronx,ROBBERY,41,4/22/2020,17,Felony,Male
+Bronx,BURGLARY,44,4/22/2020,16,Felony,Male
+Bronx,AUTO THEFT,45,4/23/2020,16,Misdemeanor,Male
+Bronx,LARCENY,42,4/23/2020,16,Felony,Male
+Bronx,ASSAULT,44,4/23/2020,15,Felony,Male
+Bronx,THEFT OF SERVICES,44,4/24/2020,17,Misdemeanor,Male
+Bronx,LARCENY,42,4/24/2020,16,Felony,Male
+Bronx,THEFT OF SERVICES,44,4/24/2020,15,Misdemeanor,Female
+Bronx,ASSAULT,43,4/24/2020,17,Felony,Male
+Bronx,ASSAULT,42,4/25/2020,17,Misdemeanor,Male
+Bronx,RECKLESS ENDANGERMNT,42,4/25/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,52,4/25/2020,17,Felony,Male
+Bronx,WEAPONS,40,4/25/2020,16,Felony,Male
+Bronx,ROBBERY,52,4/25/2020,16,Felony,Male
+Bronx,ROBBERY,52,4/25/2020,16,Felony,Male
+Bronx,CRIMINAL MISCHIEF,48,4/25/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,52,4/25/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,48,4/25/2020,16,Felony,Male
+Bronx,CRIMINAL MISCHIEF,44,4/26/2020,16,Felony,Male
+Bronx,CRIMINAL MISCHIEF,44,4/26/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,44,4/26/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,49,4/26/2020,16,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,44,4/26/2020,17,Felony,Male
+Bronx,ASSAULT,47,4/26/2020,15,Felony,Male
+Bronx,MENACING,49,4/26/2020,15,Misdemeanor,Female
+Bronx,ROBBERY,47,4/26/2020,15,Felony,Male
+Bronx,ROBBERY,47,4/26/2020,17,Felony,Male
+Bronx,ASSAULT,47,4/26/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,41,4/27/2020,16,Felony,Male
+Bronx,ASSAULT,42,4/27/2020,16,Misdemeanor,Male
+Bronx,HOMICIDE,43,4/28/2020,17,Felony,Male
+Bronx,ROBBERY,49,4/28/2020,15,Felony,Male
+Bronx,ROBBERY,49,4/28/2020,14,Felony,Female
+Bronx,LARCENY,40,4/28/2020,16,Felony,Male
+Bronx,LARCENY,40,4/28/2020,16,Felony,Male
+Bronx,ROBBERY,49,4/28/2020,12,Felony,Male
+Bronx,HOMICIDE,40,4/28/2020,17,Felony,Male
+Bronx,ROBBERY,40,4/28/2020,17,Felony,Male
+Bronx,HOMICIDE,40,4/28/2020,17,Felony,Male
+Bronx,HOMICIDE,40,4/28/2020,17,Felony,Male
+Bronx,HOMICIDE,40,4/28/2020,17,Felony,Male
+Bronx,HOMICIDE,40,4/28/2020,17,Felony,Male
+Bronx,RECKLESS ENDANGERMNT,46,4/29/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,49,4/29/2020,15,Felony,Male
+Bronx,CRIM POS STOLEN PROP,47,4/29/2020,17,Felony,Male
+Bronx,ROBBERY,49,4/29/2020,15,Felony,Male
+Bronx,WEAPONS,40,4/29/2020,16,Felony,Male
+Bronx,OTHER,46,4/29/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,49,4/29/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,48,4/30/2020,17,Felony,Male
+Bronx,WEAPONS,48,4/30/2020,16,Misdemeanor,Male
+Bronx,BURGLARY,44,4/30/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,48,4/30/2020,17,Felony,Male
+Bronx,MENACING,52,4/30/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,46,5/1/2020,16,Felony,Male
+Bronx,WEAPONS,40,5/1/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,40,5/1/2020,17,Felony,Male
+Bronx,BURGLARY,46,5/1/2020,16,Misdemeanor,Male
+Bronx,BURGLARY,46,5/1/2020,16,Felony,Male
+Bronx,BURGLARY,46,5/1/2020,16,Felony,Male
+Bronx,BURGLARY,46,5/1/2020,16,Misdemeanor,Male
+Bronx,WEAPONS,42,5/2/2020,16,Felony,Male
+Bronx,WEAPONS,42,5/2/2020,16,Felony,Male
+Bronx,BURGLARY,42,5/2/2020,16,Felony,Male
+Bronx,BURGLARY,43,5/2/2020,15,Misdemeanor,Male
+Bronx,OTHER,40,5/2/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,49,5/2/2020,15,Felony,Male
+Bronx,BURGLARY,42,5/3/2020,16,Felony,Male
+Bronx,BURGLARY,42,5/3/2020,16,Felony,Male
+Bronx,BURGLARY,42,5/3/2020,16,Felony,Male
+Bronx,BURGLARY,42,5/3/2020,16,Felony,Male
+Bronx,BURGLARY,42,5/3/2020,16,Felony,Male
+Bronx,RECKLESS ENDANGERMNT,48,5/3/2020,14,Felony,Male
+Bronx,ROBBERY,40,5/3/2020,15,Felony,Male
+Bronx,ASSAULT,50,5/3/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,50,5/3/2020,17,Misdemeanor,Female
+Bronx,AUTO THEFT,52,5/4/2020,15,Misdemeanor,Male
+Bronx,AUTO THEFT,52,5/4/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,48,5/4/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,45,5/4/2020,15,Felony,Male
+Bronx,WEAPONS,47,5/4/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,52,5/4/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,46,5/4/2020,17,Felony,Female
+Bronx,LARCENY,50,5/5/2020,16,Felony,Male
+Bronx,ASSAULT,49,5/5/2020,17,Felony,Female
+Bronx,ASSAULT,43,5/6/2020,15,Misdemeanor,Female
+Bronx,LARCENY,47,5/6/2020,17,Felony,Male
+Bronx,ASSAULT,45,5/6/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,45,5/6/2020,17,Misdemeanor,Female
+Bronx,WEAPONS,52,5/6/2020,16,Felony,Male
+Bronx,ASSAULT,47,5/6/2020,16,Misdemeanor,Female
+Bronx,WEAPONS,52,5/6/2020,16,Felony,Male
+Bronx,WEAPONS,52,5/6/2020,15,Felony,Male
+Bronx,LARCENY,45,5/7/2020,17,Felony,Male
+Bronx,LARCENY,45,5/7/2020,17,Felony,Male
+Bronx,ROBBERY,41,5/7/2020,17,Felony,Male
+Bronx,LARCENY,45,5/7/2020,15,Felony,Male
+Bronx,CRIM POS STOLEN PROP,46,5/7/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,43,5/7/2020,15,Misdemeanor,Male
+Bronx,LARCENY,45,5/7/2020,15,Felony,Male
+Bronx,LARCENY,46,5/7/2020,15,Felony,Male
+Bronx,OTHER,40,5/7/2020,17,Misdemeanor,Female
+Bronx,LARCENY,49,5/7/2020,16,Misdemeanor,Male
+Bronx,LARCENY,47,5/7/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,40,5/7/2020,17,Felony,Female
+Bronx,CRIMINAL MISCHIEF,49,5/7/2020,16,Misdemeanor,Male
+Bronx,WEAPONS,40,5/8/2020,14,Felony,Male
+Bronx,LARCENY,52,5/8/2020,15,Felony,Male
+Bronx,CRIM POS STOLEN PROP,40,5/9/2020,16,Misdemeanor,Male
+Bronx,LARCENY,48,5/9/2020,13,Felony,Male
+Bronx,ASSAULT,49,5/9/2020,15,Felony,Female
+Bronx,ASSAULT,40,5/10/2020,14,Felony,Male
+Bronx,CRIMINAL MISCHIEF,43,5/10/2020,17,Misdemeanor,Female
+Bronx,ROBBERY,52,5/11/2020,15,Felony,Male
+Bronx,LARCENY,45,5/11/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,47,5/11/2020,14,Felony,Male
+Bronx,ROBBERY,47,5/11/2020,14,Felony,Male
+Bronx,BURGLARY,45,5/11/2020,17,Felony,Male
+Bronx,ROBBERY,47,5/11/2020,14,Felony,Male
+Bronx,ROBBERY,47,5/11/2020,17,Felony,Male
+Bronx,LARCENY,46,5/12/2020,16,Felony,Male
+Bronx,WEAPONS,41,5/12/2020,16,Felony,Male
+Bronx,LARCENY,46,5/12/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,46,5/12/2020,15,Felony,Female
+Bronx,SEXUAL ASSAULT,46,5/12/2020,15,Misdemeanor,Male
+Bronx,LARCENY,49,5/13/2020,14,Felony,Male
+Bronx,ROBBERY,42,5/13/2020,15,Felony,Male
+Bronx,WEAPONS,48,5/13/2020,14,Felony,Male
+Bronx,DRUG,40,5/13/2020,17,Misdemeanor,Male
+Bronx,BURGLARY,44,5/13/2020,16,Felony,Male
+Bronx,BURGLARY,44,5/13/2020,16,Felony,Male
+Bronx,BURGLARY,44,5/13/2020,16,Felony,Male
+Bronx,BURGLARY,44,5/13/2020,16,Felony,Male
+Bronx,BURGLARY,44,5/14/2020,14,Felony,Male
+Bronx,BURGLARY,44,5/14/2020,11,Felony,Male
+Bronx,BURGLARY,44,5/14/2020,11,Felony,Male
+Bronx,BURGLARY,44,5/14/2020,11,Felony,Male
+Bronx,BURGLARY,44,5/14/2020,11,Felony,Male
+Bronx,BURGLARY,44,5/14/2020,14,Felony,Male
+Bronx,BURGLARY,44,5/14/2020,15,Felony,Male
+Bronx,BURGLARY,44,5/14/2020,15,Felony,Male
+Bronx,ROBBERY,46,5/14/2020,16,Felony,Male
+Bronx,ROBBERY,46,5/14/2020,16,Felony,Male
+Bronx,DRUG,52,5/14/2020,16,Felony,Male
+Bronx,WEAPONS,40,5/15/2020,16,Felony,Male
+Bronx,ROBBERY,49,5/15/2020,17,Felony,Male
+Bronx,ASSAULT,40,5/15/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,40,5/15/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,40,5/15/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,40,5/15/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,40,5/15/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,43,5/15/2020,16,Felony,Male
+Bronx,OTHER,46,5/16/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,44,5/16/2020,17,Felony,Female
+Bronx,ROBBERY,44,5/16/2020,16,Felony,Female
+Bronx,WEAPONS,40,5/18/2020,17,Felony,Female
+Bronx,ROBBERY,40,5/18/2020,17,Felony,Female
+Bronx,ROBBERY,50,5/18/2020,16,Felony,Male
+Bronx,ASSAULT,50,5/18/2020,16,Felony,Male
+Bronx,ROBBERY,50,5/18/2020,13,Felony,Male
+Bronx,ASSAULT,50,5/18/2020,13,Felony,Male
+Bronx,ROBBERY,48,5/19/2020,16,Felony,Male
+Bronx,ROBBERY,48,5/19/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,40,5/20/2020,11,Felony,Male
+Bronx,ASSAULT,50,5/20/2020,17,Misdemeanor,Female
+Bronx,ROBBERY,41,5/20/2020,15,Felony,Male
+Bronx,WEAPONS,47,5/20/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,46,5/20/2020,17,Felony,Male
+Bronx,CRIM POS STOLEN PROP,40,5/20/2020,14,Felony,Male
+Bronx,ASSAULT,46,5/20/2020,17,Felony,Male
+Bronx,ROBBERY,47,5/20/2020,17,Felony,Male
+Bronx,SEXUAL ASSAULT,46,5/21/2020,13,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,49,5/21/2020,11,Felony,Male
+Bronx,CRIMINAL MISCHIEF,40,5/21/2020,14,Felony,Male
+Bronx,WEAPONS,44,5/21/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,49,5/21/2020,17,Felony,Male
+Bronx,OTHER,46,5/21/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,47,5/21/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,40,5/22/2020,15,Felony,Male
+Bronx,ROBBERY,44,5/22/2020,14,Felony,Male
+Bronx,ROBBERY,44,5/22/2020,14,Felony,Male
+Bronx,WEAPONS,49,5/22/2020,15,Misdemeanor,Male
+Bronx,WEAPONS,44,5/22/2020,17,Felony,Male
+Bronx,WEAPONS,52,5/22/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,44,5/23/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,46,5/23/2020,12,Misdemeanor,Male
+Bronx,OTHER,40,5/23/2020,17,I,Male
+Bronx,LARCENY,41,5/23/2020,13,Misdemeanor,Female
+Bronx,WEAPONS,41,5/23/2020,17,Felony,Female
+Bronx,CRIMINAL MISCHIEF,49,5/24/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,46,5/24/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,52,5/24/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,43,5/25/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,43,5/25/2020,17,Felony,Male
+Bronx,ASSAULT,43,5/25/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,43,5/25/2020,17,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,40,5/25/2020,13,Felony,Male
+Bronx,ASSAULT,43,5/25/2020,17,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,40,5/25/2020,13,Felony,Male
+Bronx,CRIM POS STOLEN PROP,45,5/26/2020,15,Felony,Male
+Bronx,CRIM POS STOLEN PROP,45,5/26/2020,15,Felony,Male
+Bronx,ROBBERY,46,5/26/2020,15,Felony,Male
+Bronx,LARCENY,45,5/26/2020,17,Felony,Male
+Bronx,ROBBERY,45,5/27/2020,17,Felony,Male
+Bronx,LARCENY,43,5/27/2020,15,Felony,Male
+Bronx,OTHER,40,5/27/2020,17,Misdemeanor,Male
+Bronx,BURGLARY,44,5/27/2020,14,Felony,Male
+Bronx,BURGLARY,44,5/27/2020,15,Felony,Male
+Bronx,BURGLARY,44,5/27/2020,16,Felony,Male
+Bronx,ROBBERY,43,5/27/2020,15,Felony,Male
+Bronx,MENACING,47,5/27/2020,17,Misdemeanor,Male
+Bronx,OTHER,47,5/27/2020,17,Misdemeanor,Male
+Bronx,BURGLARY,44,5/27/2020,17,Felony,Male
+Bronx,ASSAULT,43,5/28/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,41,5/28/2020,16,Felony,Male
+Bronx,CRIM POS STOLEN PROP,46,5/29/2020,17,Felony,Male
+Bronx,LARCENY,40,5/29/2020,17,Felony,Male
+Bronx,LARCENY,46,5/29/2020,16,Felony,Male
+Bronx,AUTO THEFT,46,5/29/2020,14,Misdemeanor,Female
+Bronx,ROBBERY,46,5/29/2020,17,Felony,Male
+Bronx,ROBBERY,46,5/29/2020,17,Felony,Male
+Bronx,BURGLARY,47,5/30/2020,16,Felony,Male
+Bronx,BURGLARY,47,5/30/2020,16,Felony,Male
+Bronx,BURGLARY,47,5/30/2020,16,Felony,Male
+Bronx,BURGLARY,52,5/30/2020,16,Felony,Male
+Bronx,BURGLARY,47,5/30/2020,16,Felony,Male
+Bronx,ROBBERY,44,5/31/2020,14,Felony,Male
+Bronx,ROBBERY,46,5/31/2020,16,Felony,Male
+Bronx,BURGLARY,45,5/31/2020,17,Felony,Male
+Bronx,ASSAULT,46,5/31/2020,16,Felony,Male
+Bronx,ASSAULT,42,6/1/2020,17,Felony,Male
+Bronx,ARSON,52,6/1/2020,16,Misdemeanor,Male
+Bronx,BURGLARY,48,6/2/2020,17,Misdemeanor,Male
+Bronx,LARCENY,43,6/2/2020,15,Felony,Male
+Bronx,OTHER,46,6/2/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,45,6/2/2020,15,Felony,Female
+Bronx,BURGLARY,47,6/2/2020,16,Felony,Male
+Bronx,LARCENY,43,6/2/2020,16,Felony,Female
+Bronx,LARCENY,43,6/2/2020,17,Felony,Male
+Bronx,BURGLARY,40,6/2/2020,17,Felony,Male
+Bronx,BURGLARY,46,6/2/2020,17,Felony,Male
+Bronx,BURGLARY,46,6/2/2020,17,Felony,Male
+Bronx,ASSAULT,42,6/2/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,47,6/3/2020,16,Felony,Male
+Bronx,ROBBERY,47,6/3/2020,16,Felony,Male
+Bronx,ROBBERY,47,6/3/2020,16,Felony,Male
+Bronx,ASSAULT,43,6/3/2020,14,Felony,Female
+Bronx,CRIMINAL MISCHIEF,41,6/4/2020,17,Misdemeanor,Male
+Bronx,DRUG,40,6/5/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,49,6/6/2020,16,Felony,Male
+Bronx,ROBBERY,49,6/6/2020,17,Felony,Male
+Bronx,WEAPONS,48,6/6/2020,16,Felony,Male
+Bronx,ASSAULT,46,6/6/2020,13,Felony,Male
+Bronx,WEAPONS,46,6/7/2020,17,Felony,Male
+Bronx,ROBBERY,47,6/8/2020,16,Felony,Male
+Bronx,ROBBERY,48,6/8/2020,15,Felony,Male
+Bronx,ROBBERY,48,6/8/2020,15,Felony,Male
+Bronx,ROBBERY,48,6/8/2020,15,Felony,Male
+Bronx,ROBBERY,48,6/8/2020,17,Felony,Male
+Bronx,ROBBERY,48,6/8/2020,16,Felony,Male
+Bronx,ROBBERY,49,6/9/2020,17,Felony,Male
+Bronx,ROBBERY,49,6/9/2020,16,Felony,Male
+Bronx,ASSAULT,41,6/9/2020,15,Felony,Female
+Bronx,ROBBERY,52,6/10/2020,16,Felony,Male
+Bronx,RECKLESS ENDANGERMNT,47,6/11/2020,17,Felony,Male
+Bronx,WEAPONS,43,6/11/2020,16,Felony,Male
+Bronx,WEAPONS,43,6/11/2020,17,Felony,Male
+Bronx,ASSAULT,45,6/11/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,52,6/12/2020,15,Felony,Male
+Bronx,ASSAULT,47,6/12/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,43,6/13/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,52,6/13/2020,16,Felony,Male
+Bronx,ASSAULT,43,6/13/2020,16,Misdemeanor,Female
+Bronx,ROBBERY,52,6/13/2020,15,Felony,Male
+Bronx,CRIMINAL MISCHIEF,43,6/13/2020,16,Misdemeanor,Female
+Bronx,CRIMINAL MISCHIEF,43,6/13/2020,16,Misdemeanor,Male
+Bronx,LARCENY,40,6/14/2020,15,Felony,Male
+Bronx,CRIM POS STOLEN PROP,48,6/15/2020,17,Felony,Male
+Bronx,ROBBERY,48,6/16/2020,15,Felony,Female
+Bronx,ROBBERY,40,6/16/2020,15,Felony,Male
+Bronx,ROBBERY,40,6/17/2020,15,Felony,Female
+Bronx,HOMICIDE,44,6/17/2020,16,Felony,Male
+Bronx,OTHER,45,6/18/2020,17,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,46,6/18/2020,9,Felony,Male
+Bronx,ROBBERY,41,6/18/2020,16,Felony,Male
+Bronx,ROBBERY,47,6/18/2020,17,Felony,Male
+Bronx,LARCENY,42,6/18/2020,16,Felony,Male
+Bronx,ASSAULT,42,6/19/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,40,6/19/2020,15,Felony,Male
+Bronx,OTHER,46,6/19/2020,17,Misdemeanor,Male
+Bronx,OTHER,46,6/19/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,46,6/22/2020,16,Felony,Female
+Bronx,ASSAULT,46,6/22/2020,17,Felony,Female
+Bronx,ASSAULT,48,6/22/2020,14,Felony,Male
+Bronx,ASSAULT,42,6/23/2020,14,Misdemeanor,Female
+Bronx,BURGLARY,47,6/23/2020,16,Felony,Male
+Bronx,ASSAULT,43,6/23/2020,14,Misdemeanor,Female
+Bronx,ASSAULT,49,6/23/2020,16,Misdemeanor,Female
+Bronx,ROBBERY,47,6/24/2020,14,Felony,Male
+Bronx,ASSAULT,43,6/24/2020,13,Felony,Female
+Bronx,SEXUAL ASSAULT,46,6/25/2020,16,Felony,Male
+Bronx,CRIMINAL MISCHIEF,47,6/26/2020,15,Felony,Male
+Bronx,ROBBERY,46,6/26/2020,13,Felony,Female
+Bronx,ROBBERY,46,6/26/2020,17,Felony,Female
+Bronx,ASSAULT,48,6/26/2020,17,Felony,Female
+Bronx,ASSAULT,42,6/28/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,48,6/29/2020,17,Misdemeanor,Female
+Bronx,LARCENY,41,6/29/2020,16,Felony,Male
+Bronx,ASSAULT,49,6/29/2020,17,Misdemeanor,Male
+Bronx,AUTO THEFT,41,6/29/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,46,6/29/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,46,6/29/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,40,6/30/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,41,7/1/2020,17,Felony,Female
+Bronx,ASSAULT,48,7/1/2020,15,Felony,Male
+Bronx,ROBBERY,41,7/1/2020,14,Felony,Male
+Bronx,MENACING,43,7/1/2020,16,Misdemeanor,Male
+Bronx,HOMICIDE,47,7/1/2020,17,Felony,Male
+Bronx,LARCENY,44,7/2/2020,13,Felony,Female
+Bronx,LARCENY,44,7/2/2020,17,Felony,Male
+Bronx,ASSAULT,45,7/4/2020,14,Misdemeanor,Female
+Bronx,OTHER,47,7/5/2020,15,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,42,7/5/2020,16,Felony,Male
+Bronx,ASSAULT,50,7/6/2020,16,Felony,Male
+Bronx,ASSAULT,42,7/7/2020,15,Felony,Male
+Bronx,AUTO THEFT,40,7/9/2020,17,Misdemeanor,Male
+Bronx,OTHER,49,7/10/2020,17,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,48,7/10/2020,16,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,46,7/12/2020,14,Felony,Female
+Bronx,CRIMINAL MISCHIEF,47,7/12/2020,16,Felony,Male
+Bronx,ASSAULT,52,7/12/2020,16,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,47,7/12/2020,16,Misdemeanor,Male
+Bronx,WEAPONS,46,7/13/2020,16,Felony,Male
+Bronx,LARCENY,46,7/14/2020,17,Felony,Male
+Bronx,ROBBERY,43,7/15/2020,15,Felony,Male
+Bronx,ASSAULT,47,7/15/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,48,7/16/2020,17,Felony,Male
+Bronx,ASSAULT,48,7/16/2020,17,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,41,7/16/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,48,7/16/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,43,7/17/2020,13,Felony,Male
+Bronx,ASSAULT,40,7/17/2020,15,Misdemeanor,Male
+Bronx,WEAPONS,48,7/18/2020,17,Felony,Male
+Bronx,ASSAULT,40,7/18/2020,15,Felony,Female
+Bronx,ASSAULT,44,7/20/2020,16,Felony,Female
+Bronx,BURGLARY,40,7/20/2020,16,Felony,Male
+Bronx,BURGLARY,40,7/20/2020,17,Felony,Male
+Bronx,ROBBERY,47,7/20/2020,15,Felony,Male
+Bronx,ASSAULT,44,7/20/2020,16,Misdemeanor,Female
+Bronx,BURGLARY,49,7/21/2020,16,Felony,Male
+Bronx,BURGLARY,49,7/21/2020,16,Felony,Male
+Bronx,BURGLARY,49,7/21/2020,16,Felony,Male
+Bronx,BURGLARY,45,7/21/2020,16,Felony,Male
+Bronx,BURGLARY,45,7/21/2020,16,Felony,Male
+Bronx,ASSAULT,40,7/21/2020,15,Misdemeanor,Male
+Bronx,LARCENY,40,7/21/2020,15,Felony,Male
+Bronx,LARCENY,47,7/21/2020,14,Felony,Female
+Bronx,LARCENY,43,7/21/2020,17,Felony,Male
+Bronx,LARCENY,40,7/21/2020,17,Felony,Male
+Bronx,HOMICIDE,52,7/21/2020,16,Felony,Male
+Bronx,LARCENY,52,7/21/2020,16,Felony,Male
+Bronx,HOMICIDE,52,7/21/2020,16,Felony,Male
+Bronx,CRIMINAL MISCHIEF,40,7/21/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,43,7/21/2020,15,Felony,Male
+Bronx,ASSAULT,43,7/21/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,40,7/22/2020,15,Misdemeanor,Female
+Bronx,BURGLARY,49,7/23/2020,17,Misdemeanor,Male
+Bronx,MENACING,42,7/23/2020,14,Felony,Male
+Bronx,LARCENY,49,7/23/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,47,7/23/2020,16,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,40,7/23/2020,16,Felony,Female
+Bronx,ROBBERY,42,7/23/2020,14,Felony,Male
+Bronx,ASSAULT,47,7/24/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,43,7/24/2020,17,Felony,Male
+Bronx,ASSAULT,43,7/24/2020,17,Felony,Male
+Bronx,ASSAULT,43,7/24/2020,17,Felony,Male
+Bronx,CRIM POS STOLEN PROP,43,7/24/2020,13,Misdemeanor,Male
+Bronx,ROBBERY,40,7/24/2020,14,Felony,Male
+Bronx,ASSAULT,46,7/24/2020,17,Misdemeanor,Male
+Bronx,LARCENY,40,7/27/2020,17,Felony,Male
+Bronx,LARCENY,43,7/27/2020,15,Felony,Male
+Bronx,ROBBERY,41,7/27/2020,17,Felony,Male
+Bronx,ROBBERY,43,7/27/2020,14,Felony,Male
+Bronx,ASSAULT,44,7/27/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,46,7/28/2020,16,Felony,Male
+Bronx,ASSAULT,40,7/28/2020,15,Felony,Female
+Bronx,ASSAULT,40,7/28/2020,15,Felony,Female
+Bronx,ASSAULT,40,7/28/2020,15,Felony,Female
+Bronx,ASSAULT,40,7/28/2020,15,Felony,Female
+Bronx,ASSAULT,45,7/29/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,45,7/29/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,43,7/29/2020,16,Misdemeanor,Male
+Bronx,LARCENY,46,7/29/2020,15,Misdemeanor,Male
+Bronx,HOMICIDE,52,7/30/2020,16,Felony,Male
+Bronx,HOMICIDE,40,7/31/2020,15,Felony,Male
+Bronx,WEAPONS,50,7/31/2020,16,Felony,Male
+Bronx,WEAPONS,48,8/1/2020,15,Felony,Male
+Bronx,CRIM POS STOLEN PROP,49,8/1/2020,17,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,49,8/1/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,40,8/2/2020,16,Misdemeanor,Male
+Bronx,HOMICIDE,52,8/3/2020,17,Felony,Male
+Bronx,CRIM POS STOLEN PROP,44,8/3/2020,17,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,44,8/3/2020,16,Misdemeanor,Female
+Bronx,ASSAULT,47,8/4/2020,17,Misdemeanor,Male
+Bronx,MENACING,44,8/4/2020,14,Misdemeanor,Male
+Bronx,ASSAULT,44,8/5/2020,16,Felony,Male
+Bronx,ASSAULT,46,8/5/2020,16,Felony,Male
+Bronx,WEAPONS,44,8/5/2020,16,Felony,Male
+Bronx,HOMICIDE,46,8/6/2020,17,Felony,Male
+Bronx,CRIM POS STOLEN PROP,40,8/6/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,40,8/6/2020,14,Felony,Male
+Bronx,ROBBERY,40,8/6/2020,15,Felony,Male
+Bronx,ROBBERY,40,8/6/2020,15,Felony,Male
+Bronx,DRUG,40,8/6/2020,16,Felony,Male
+Bronx,ROBBERY,40,8/6/2020,14,Felony,Male
+Bronx,HOMICIDE,46,8/6/2020,17,Felony,Male
+Bronx,MENACING,47,8/6/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,40,8/6/2020,13,Felony,Male
+Bronx,HOMICIDE,46,8/6/2020,17,Felony,Male
+Bronx,ASSAULT,43,8/6/2020,17,Misdemeanor,Male
+Bronx,HOMICIDE,46,8/6/2020,16,Felony,Male
+Bronx,ASSAULT,45,8/7/2020,17,Felony,Female
+Bronx,ASSAULT,45,8/7/2020,17,Misdemeanor,Female
+Bronx,ROBBERY,46,8/8/2020,17,Felony,Male
+Bronx,ROBBERY,46,8/8/2020,17,Felony,Male
+Bronx,ROBBERY,46,8/8/2020,17,Felony,Male
+Bronx,OTHER,41,8/8/2020,17,Misdemeanor,Male
+Bronx,RECKLESS ENDANGERMNT,52,8/9/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,48,8/10/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,41,8/10/2020,14,Felony,Male
+Bronx,ROBBERY,41,8/10/2020,14,Felony,Male
+Bronx,ROBBERY,43,8/10/2020,15,Felony,Male
+Bronx,CRIMINAL MISCHIEF,44,8/10/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,44,8/10/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,46,8/10/2020,16,Misdemeanor,Female
+Bronx,RECKLESS ENDANGERMNT,52,8/11/2020,17,Felony,Male
+Bronx,ROBBERY,48,8/12/2020,17,Felony,Male
+Bronx,WEAPONS,50,8/12/2020,15,Felony,Male
+Bronx,ASSAULT,43,8/12/2020,17,Misdemeanor,Male
+Bronx,HOMICIDE,46,8/12/2020,15,Felony,Male
+Bronx,HOMICIDE,46,8/12/2020,15,Felony,Male
+Bronx,ASSAULT,44,8/12/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,52,8/12/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,42,8/12/2020,15,Felony,Male
+Bronx,WEAPONS,44,8/12/2020,14,Felony,Male
+Bronx,LARCENY,44,8/13/2020,15,Felony,Male
+Bronx,ROBBERY,49,8/14/2020,16,Felony,Male
+Bronx,ASSAULT,43,8/14/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,44,8/14/2020,16,Misdemeanor,Female
+Bronx,ASSAULT,49,8/16/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,43,8/17/2020,16,Felony,Male
+Bronx,ROBBERY,45,8/17/2020,17,Felony,Male
+Bronx,DRUG,42,8/17/2020,17,Felony,Male
+Bronx,ROBBERY,43,8/18/2020,14,Felony,Male
+Bronx,ASSAULT,52,8/18/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,43,8/19/2020,12,Felony,Male
+Bronx,ROBBERY,43,8/19/2020,12,Felony,Male
+Bronx,ASSAULT,46,8/19/2020,17,Misdemeanor,Female
+Bronx,SEXUAL ASSAULT,45,8/20/2020,12,Felony,Male
+Bronx,ASSAULT,40,8/21/2020,17,Felony,Male
+Bronx,ASSAULT,40,8/21/2020,17,Felony,Male
+Bronx,ASSAULT,52,8/21/2020,16,Misdemeanor,Male
+Bronx,LARCENY,40,8/22/2020,17,Felony,Male
+Bronx,ROBBERY,47,8/22/2020,17,Felony,Male
+Bronx,BURGLARY,47,8/22/2020,17,Felony,Male
+Bronx,ROBBERY,47,8/22/2020,16,Felony,Male
+Bronx,ROBBERY,47,8/22/2020,17,Felony,Male
+Bronx,HOMICIDE,48,8/24/2020,17,Felony,Male
+Bronx,ROBBERY,44,8/24/2020,15,Felony,Female
+Bronx,ROBBERY,44,8/24/2020,16,Felony,Female
+Bronx,CRIMINAL MISCHIEF,40,8/25/2020,15,Felony,Male
+Bronx,CRIMINAL MISCHIEF,40,8/25/2020,12,Felony,Male
+Bronx,CRIMINAL MISCHIEF,40,8/25/2020,14,Felony,Male
+Bronx,ASSAULT,49,8/25/2020,16,Felony,Male
+Bronx,ASSAULT,49,8/25/2020,16,Felony,Male
+Bronx,BURGLARY,40,8/25/2020,17,Misdemeanor,Female
+Bronx,BURGLARY,40,8/25/2020,17,Misdemeanor,Female
+Bronx,ROBBERY,49,8/26/2020,17,Felony,Male
+Bronx,OTHER,49,8/26/2020,17,,Male
+Bronx,OTHER,49,8/26/2020,17,,Male
+Bronx,ROBBERY,47,8/26/2020,17,Felony,Male
+Bronx,WEAPONS,52,8/27/2020,16,Felony,Male
+Bronx,ASSAULT,47,8/27/2020,14,Felony,Female
+Bronx,ROBBERY,46,8/27/2020,17,Felony,Male
+Bronx,ASSAULT,40,8/28/2020,17,Felony,Male
+Bronx,ASSAULT,40,8/28/2020,17,Felony,Male
+Bronx,CRIM POS STOLEN PROP,43,8/28/2020,17,Felony,Male
+Bronx,ROBBERY,46,8/28/2020,17,Felony,Male
+Bronx,ASSAULT,46,8/28/2020,14,Misdemeanor,Female
+Bronx,ROBBERY,46,8/28/2020,17,Felony,Male
+Bronx,WEAPONS,48,8/29/2020,16,Felony,Male
+Bronx,WEAPONS,48,8/29/2020,17,Felony,Male
+Bronx,WEAPONS,48,8/29/2020,17,Felony,Male
+Bronx,ASSAULT,52,8/29/2020,16,Felony,Female
+Bronx,WEAPONS,48,8/29/2020,17,Felony,Male
+Bronx,SEXUAL ASSAULT,42,8/30/2020,16,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,42,8/30/2020,16,Misdemeanor,Male
+Bronx,WEAPONS,46,8/31/2020,17,Felony,Male
+Bronx,MENACING,50,9/1/2020,17,Misdemeanor,Male
+Bronx,LARCENY,47,9/1/2020,17,Felony,Male
+Bronx,BURGLARY,47,9/1/2020,16,Felony,Male
+Bronx,BURGLARY,47,9/1/2020,16,Felony,Male
+Bronx,SEXUAL ASSAULT,46,9/2/2020,12,Felony,Male
+Bronx,LARCENY,46,9/2/2020,16,Felony,Male
+Bronx,LARCENY,47,9/2/2020,16,Felony,Male
+Bronx,LARCENY,48,9/3/2020,17,Felony,Male
+Bronx,CRIM POS STOLEN PROP,52,9/3/2020,17,Felony,Female
+Bronx,ASSAULT,40,9/3/2020,17,Felony,Male
+Bronx,ROBBERY,43,9/3/2020,15,Felony,Male
+Bronx,ROBBERY,43,9/3/2020,16,Felony,Female
+Bronx,ASSAULT,42,9/4/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,47,9/4/2020,17,Felony,Male
+Bronx,DRUG,52,9/4/2020,16,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,50,9/5/2020,16,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,46,9/5/2020,11,Felony,Male
+Bronx,ASSAULT,41,9/6/2020,17,Felony,Male
+Bronx,OTHER,41,9/6/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,40,9/6/2020,15,Misdemeanor,Female
+Bronx,ROBBERY,49,9/6/2020,16,Felony,Female
+Bronx,ASSAULT,44,9/6/2020,13,Felony,Female
+Bronx,ASSAULT,40,9/7/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,40,9/7/2020,17,Felony,Male
+Bronx,ASSAULT,42,9/7/2020,14,Felony,Female
+Bronx,LARCENY,40,9/8/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,46,9/8/2020,17,Misdemeanor,Male
+BRONX,HOMICIDE,46,9/9/2020,17,Felony,Male
+BRONX,HOMICIDE,46,9/9/2020,17,Felony,Male
+Bronx,WEAPONS,42,9/9/2020,17,Felony,Male
+Bronx,MENACING,49,9/9/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,40,9/9/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,40,9/9/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,49,9/10/2020,16,Felony,Male
+Bronx,ASSAULT,44,9/10/2020,13,Felony,Male
+Bronx,ROBBERY,49,9/10/2020,12,Felony,Male
+Bronx,WEAPONS,40,9/10/2020,16,Felony,Male
+Bronx,ASSAULT,52,9/10/2020,15,Felony,Female
+Bronx,BURGLARY,40,9/11/2020,16,Felony,Male
+Bronx,BURGLARY,47,9/11/2020,16,Felony,Male
+Bronx,WEAPONS,48,9/11/2020,15,Felony,Male
+Bronx,ROBBERY,47,9/11/2020,17,Felony,Male
+Bronx,WEAPONS,48,9/11/2020,15,Felony,Male
+Bronx,AUTO THEFT,40,9/11/2020,15,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,40,9/11/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,49,9/12/2020,17,Felony,Male
+Bronx,WEAPONS,52,9/12/2020,17,Felony,Male
+Bronx,WEAPONS,52,9/13/2020,17,Felony,Male
+Bronx,ROBBERY,43,9/13/2020,17,Felony,Male
+Bronx,ROBBERY,44,9/14/2020,17,Felony,Male
+Bronx,ASSAULT,40,9/14/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,44,9/14/2020,15,Felony,Male
+Bronx,ROBBERY,44,9/14/2020,15,Felony,Male
+Bronx,ROBBERY,44,9/14/2020,15,Felony,Male
+Bronx,ROBBERY,44,9/14/2020,15,Felony,Male
+Bronx,ASSAULT,46,9/15/2020,16,Felony,Male
+Bronx,BURGLARY,46,9/15/2020,16,Felony,Male
+Bronx,LARCENY,40,9/15/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,45,9/16/2020,17,Felony,Male
+Bronx,OTHER,40,9/16/2020,17,Misdemeanor,Male
+Bronx,LARCENY,52,9/16/2020,16,Misdemeanor,Male
+Bronx,LARCENY,52,9/16/2020,16,Misdemeanor,Female
+Bronx,CRIMINAL MISCHIEF,40,9/16/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,45,9/16/2020,17,Felony,Male
+Bronx,BURGLARY,48,9/17/2020,16,Felony,Male
+Bronx,LARCENY,47,9/17/2020,16,Felony,Male
+Bronx,LARCENY,44,9/17/2020,16,Felony,Male
+Bronx,LARCENY,44,9/17/2020,16,Felony,Male
+Bronx,WEAPONS,40,9/17/2020,16,Felony,Male
+Bronx,OTHER,40,9/18/2020,17,Misdemeanor,Male
+Bronx,LARCENY,44,9/18/2020,17,Felony,Male
+Bronx,OTHER,40,9/18/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,46,9/18/2020,15,Felony,Male
+Bronx,LARCENY,44,9/18/2020,15,Felony,Male
+Bronx,LARCENY,52,9/18/2020,15,Misdemeanor,Male
+Bronx,LARCENY,43,9/19/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,52,9/19/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,48,9/19/2020,16,Felony,Male
+Bronx,WEAPONS,48,9/20/2020,17,Felony,Male
+Bronx,WEAPONS,41,9/20/2020,17,Felony,Male
+Bronx,WEAPONS,48,9/20/2020,16,Felony,Male
+Bronx,WEAPONS,48,9/20/2020,16,Felony,Male
+Bronx,LARCENY,44,9/21/2020,16,Felony,Male
+Bronx,ROBBERY,42,9/22/2020,13,Felony,Male
+Bronx,ASSAULT,48,9/22/2020,17,Felony,Male
+Bronx,ROBBERY,43,9/22/2020,16,Felony,Male
+Bronx,LARCENY,46,9/22/2020,17,Felony,Male
+Bronx,SEXUAL ASSAULT,46,9/22/2020,13,Felony,Female
+Bronx,FORGERY,43,9/23/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,43,9/23/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,42,9/23/2020,16,Misdemeanor,Male
+Bronx,LARCENY,40,9/23/2020,14,Felony,Male
+Bronx,WEAPONS,48,9/23/2020,14,Felony,Male
+Bronx,CRIMINAL MISCHIEF,44,9/24/2020,15,Felony,Male
+Bronx,WEAPONS,41,9/25/2020,17,Felony,Male
+Bronx,WEAPONS,41,9/25/2020,17,Felony,Male
+Bronx,LARCENY,40,9/25/2020,17,Felony,Male
+Bronx,LARCENY,40,9/25/2020,16,Felony,Male
+Bronx,SEXUAL ASSAULT,46,9/25/2020,16,Misdemeanor,Male
+Bronx,WEAPONS,42,9/25/2020,17,Felony,Male
+Bronx,ASSAULT,49,9/25/2020,16,Felony,Female
+Bronx,ASSAULT,46,9/26/2020,14,Misdemeanor,Female
+Bronx,ASSAULT,46,9/26/2020,15,Misdemeanor,Female
+Bronx,ROBBERY,52,9/26/2020,17,Felony,Male
+Bronx,ASSAULT,40,9/27/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,40,9/27/2020,15,Misdemeanor,Female
+Bronx,ASSAULT,40,9/27/2020,17,Misdemeanor,Female
+Bronx,LARCENY,48,9/27/2020,17,Felony,Female
+Bronx,ASSAULT,40,9/27/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,47,9/28/2020,17,Felony,Male
+Bronx,ASSAULT,49,9/28/2020,17,Felony,Female
+Bronx,WEAPONS,44,9/29/2020,16,Misdemeanor,Male
+Bronx,RECKLESS ENDANGERMNT,44,9/29/2020,12,Misdemeanor,Male
+Bronx,ROBBERY,52,9/29/2020,17,Felony,Male
+Bronx,WEAPONS,44,9/30/2020,17,Felony,Male
+Bronx,OTHER,41,9/30/2020,16,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,46,9/30/2020,17,Felony,Male
+Bronx,WEAPONS,40,9/30/2020,15,Felony,Male
+Bronx,WEAPONS,40,10/1/2020,17,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,46,10/1/2020,17,Felony,Male
+Bronx,LARCENY,49,10/1/2020,16,Felony,Male
+Bronx,ASSAULT,43,10/1/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,49,10/1/2020,16,Felony,Male
+Bronx,ROBBERY,49,10/1/2020,16,Felony,Male
+Bronx,ROBBERY,49,10/1/2020,16,Felony,Male
+Bronx,ROBBERY,49,10/1/2020,16,Felony,Male
+Bronx,ROBBERY,46,10/2/2020,17,Felony,Male
+Bronx,ASSAULT,46,10/2/2020,15,Felony,Male
+Bronx,DRUG,44,10/3/2020,17,Misdemeanor,Male
+Bronx,MENACING,42,10/3/2020,13,Misdemeanor,Female
+Bronx,ASSAULT,40,10/4/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,40,10/4/2020,17,Misdemeanor,Male
+Bronx,LARCENY,52,10/5/2020,17,Felony,Male
+Bronx,WEAPONS,47,10/5/2020,15,Felony,Male
+Bronx,WEAPONS,47,10/5/2020,16,Felony,Male
+Bronx,WEAPONS,47,10/5/2020,17,Felony,Male
+Bronx,ASSAULT,48,10/5/2020,17,Misdemeanor,Male
+Bronx,MARIJUANA,44,10/5/2020,17,Felony,Male
+Bronx,MENACING,44,10/6/2020,14,Misdemeanor,Female
+Bronx,DRUG,52,10/6/2020,16,Felony,Male
+Bronx,MENACING,40,10/6/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,47,10/6/2020,17,Misdemeanor,Female
+Bronx,AUTO THEFT,40,10/6/2020,17,Felony,Male
+Bronx,ROBBERY,43,10/6/2020,16,Felony,Male
+Bronx,ASSAULT,47,10/6/2020,17,Misdemeanor,Female
+Bronx,ROBBERY,45,10/7/2020,17,Felony,Male
+Bronx,SEXUAL ASSAULT,49,10/7/2020,12,Misdemeanor,Male
+Bronx,MARIJUANA,41,10/7/2020,17,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,49,10/7/2020,12,Felony,Male
+Bronx,ROBBERY,43,10/8/2020,14,Felony,Male
+Bronx,CRIM POS STOLEN PROP,47,10/8/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,43,10/8/2020,14,Felony,Male
+Bronx,ROBBERY,43,10/8/2020,14,Felony,Male
+Bronx,ROBBERY,43,10/8/2020,15,Felony,Male
+Bronx,ROBBERY,43,10/8/2020,13,Felony,Male
+Bronx,ROBBERY,43,10/8/2020,14,Felony,Male
+Bronx,ROBBERY,43,10/8/2020,13,Felony,Male
+Bronx,BURGLARY,44,10/8/2020,16,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,41,10/8/2020,13,Felony,Male
+Bronx,ROBBERY,43,10/8/2020,14,Felony,Male
+Bronx,LARCENY,43,10/8/2020,17,Felony,Female
+Bronx,LARCENY,43,10/8/2020,16,Felony,Male
+Bronx,LARCENY,43,10/8/2020,16,Felony,Male
+Bronx,CRIM POS STOLEN PROP,47,10/8/2020,16,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,47,10/8/2020,16,Misdemeanor,Male
+Bronx,BURGLARY,44,10/8/2020,16,Misdemeanor,Male
+Bronx,AUTO THEFT,43,10/8/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,43,10/9/2020,17,Felony,Male
+Bronx,MARIJUANA,48,10/9/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,40,10/9/2020,17,Misdemeanor,Male
+Bronx,HOMICIDE,47,10/9/2020,17,Felony,Male
+Bronx,CRIM POS STOLEN PROP,44,10/9/2020,17,Felony,Male
+Bronx,ASSAULT,42,10/9/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,49,10/9/2020,15,Felony,Male
+Bronx,WEAPONS,46,10/10/2020,15,Felony,Male
+Bronx,MARIJUANA,43,10/12/2020,17,Misdemeanor,Male
+Bronx,FORGERY,43,10/12/2020,17,Felony,Male
+Bronx,WEAPONS,43,10/13/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,41,10/13/2020,16,Felony,Male
+Bronx,ROBBERY,42,10/13/2020,15,Felony,Male
+Bronx,ROBBERY,42,10/13/2020,15,Felony,Male
+Bronx,ASSAULT,40,10/13/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,40,10/13/2020,17,Felony,Male
+Bronx,LARCENY,40,10/13/2020,14,Felony,Male
+Bronx,ASSAULT,47,10/13/2020,15,Misdemeanor,Male
+Bronx,ASSAULT,46,10/13/2020,16,Felony,Male
+Bronx,WEAPONS,40,10/13/2020,17,Felony,Male
+Bronx,ASSAULT,46,10/13/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,40,10/14/2020,17,Felony,Male
+Bronx,ROBBERY,40,10/14/2020,17,Felony,Male
+Bronx,BURGLARY,48,10/14/2020,17,Misdemeanor,Male
+Bronx,LARCENY,44,10/14/2020,15,Felony,Male
+Bronx,SEXUAL ASSAULT,41,10/14/2020,13,Felony,Male
+Bronx,LARCENY,44,10/15/2020,14,Felony,Female
+Bronx,LARCENY,44,10/15/2020,15,Felony,Male
+Bronx,ROBBERY,40,10/15/2020,14,Felony,Male
+Bronx,ASSAULT,49,10/15/2020,16,Felony,Male
+Bronx,WEAPONS,48,10/15/2020,16,Felony,Male
+Bronx,WEAPONS,48,10/15/2020,16,Felony,Male
+Bronx,LARCENY,40,10/15/2020,16,Felony,Male
+Bronx,ASSAULT,49,10/15/2020,16,Felony,Male
+Bronx,ROBBERY,40,10/15/2020,14,Felony,Male
+Bronx,ROBBERY,40,10/15/2020,15,Felony,Male
+Bronx,ASSAULT,49,10/15/2020,16,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,16,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,15,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,16,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,15,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,15,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,15,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,16,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,15,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,15,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,15,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,16,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,16,Felony,Male
+Bronx,ROBBERY,44,10/16/2020,14,Felony,Female
+Bronx,ROBBERY,41,10/16/2020,16,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,16,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,15,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,16,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,15,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,15,Felony,Male
+Bronx,ROBBERY,41,10/16/2020,16,Felony,Male
+Bronx,WEAPONS,52,10/17/2020,16,Felony,Male
+Bronx,RECKLESS ENDANGERMNT,44,10/17/2020,16,Misdemeanor,Female
+Bronx,CRIMINAL MISCHIEF,52,10/17/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,43,10/19/2020,17,Felony,Male
+Bronx,WEAPONS,40,10/19/2020,17,Felony,Male
+Bronx,THEFT OF SERVICES,40,10/19/2020,13,Misdemeanor,Male
+Bronx,WEAPONS,40,10/19/2020,14,Felony,Male
+Bronx,WEAPONS,40,10/19/2020,14,Felony,Male
+Bronx,LARCENY,42,10/20/2020,17,Felony,Male
+Bronx,CRIM POS STOLEN PROP,48,10/20/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,46,10/21/2020,16,Felony,Male
+Bronx,WEAPONS,46,10/21/2020,16,Felony,Male
+Bronx,CRIMINAL MISCHIEF,52,10/21/2020,14,Felony,Male
+Bronx,LARCENY,44,10/21/2020,15,Felony,Male
+Bronx,WEAPONS,44,10/22/2020,17,Felony,Male
+Bronx,ASSAULT,43,10/22/2020,17,Felony,Female
+Bronx,LARCENY,43,10/22/2020,15,Felony,Male
+Bronx,MENACING,43,10/22/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,40,10/22/2020,15,Felony,Male
+Bronx,LARCENY,49,10/23/2020,13,Felony,Male
+Bronx,CRIMINAL MISCHIEF,50,10/23/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,50,10/23/2020,17,Felony,Male
+Bronx,ASSAULT,40,10/23/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,46,10/23/2020,16,Felony,Male
+Bronx,ASSAULT,49,10/23/2020,16,Felony,Male
+Bronx,ASSAULT,42,10/23/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,42,10/23/2020,17,Misdemeanor,Male
+Bronx,ASSAULT,42,10/23/2020,17,Misdemeanor,Male
+Bronx,HOMICIDE,44,10/24/2020,15,Felony,Male
+Bronx,HOMICIDE,44,10/24/2020,15,Felony,Male
+Bronx,ASSAULT,43,10/24/2020,15,Misdemeanor,Female
+Bronx,WEAPONS,46,10/24/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,40,10/24/2020,16,Felony,Male
+Bronx,WEAPONS,40,10/25/2020,15,Felony,Male
+Bronx,WEAPONS,40,10/25/2020,15,Felony,Male
+Bronx,ARSON,41,10/26/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,41,10/26/2020,17,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,49,10/26/2020,15,Misdemeanor,Male
+Bronx,OTHER,48,10/27/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,42,10/27/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,47,10/27/2020,15,Misdemeanor,Male
+Bronx,LARCENY,49,10/27/2020,14,Misdemeanor,Male
+Bronx,LARCENY,46,10/27/2020,17,Felony,Male
+Bronx,LARCENY,46,10/27/2020,14,Felony,Male
+Bronx,LARCENY,46,10/27/2020,16,Felony,Male
+Bronx,ROBBERY,48,10/27/2020,14,Felony,Female
+Bronx,ROBBERY,41,10/27/2020,15,Felony,Male
+Bronx,ROBBERY,48,10/27/2020,14,Felony,Male
+Bronx,ROBBERY,48,10/27/2020,16,Felony,Male
+Bronx,ROBBERY,48,10/27/2020,17,Felony,Male
+Bronx,ROBBERY,45,10/28/2020,12,Felony,Female
+Bronx,WEAPONS,44,10/28/2020,17,Felony,Male
+Bronx,ROBBERY,45,10/28/2020,16,Felony,Female
+Bronx,ROBBERY,45,10/28/2020,13,Felony,Female
+Bronx,ROBBERY,45,10/28/2020,16,Felony,Female
+Bronx,ROBBERY,45,10/28/2020,17,Felony,Female
+Bronx,ROBBERY,45,10/28/2020,13,Felony,Female
+Bronx,ROBBERY,45,10/28/2020,16,Felony,Female
+Bronx,ROBBERY,49,10/28/2020,16,Felony,Male
+Bronx,ROBBERY,45,10/28/2020,12,Felony,Female
+Bronx,OTHER,48,10/28/2020,17,Misdemeanor,Female
+Bronx,ROBBERY,48,10/28/2020,15,Felony,Female
+Bronx,ROBBERY,49,10/28/2020,15,Felony,Male
+Bronx,CRIMINAL MISCHIEF,49,10/29/2020,16,Felony,Male
+Bronx,ASSAULT,46,10/29/2020,16,Misdemeanor,Female
+Bronx,LARCENY,40,10/29/2020,16,Felony,Male
+Bronx,CRIM POS STOLEN PROP,40,10/29/2020,16,Felony,Male
+Bronx,WEAPONS,49,10/30/2020,16,Felony,Male
+Bronx,WEAPONS,42,10/30/2020,16,Misdemeanor,Female
+Bronx,ASSAULT,43,10/31/2020,16,Felony,Male
+Bronx,WEAPONS,43,10/31/2020,17,Felony,Male
+Bronx,WEAPONS,48,10/31/2020,16,Felony,Female
+Bronx,ASSAULT,43,10/31/2020,16,Felony,Male
+Bronx,ROBBERY,45,11/1/2020,15,Felony,Male
+Bronx,ROBBERY,45,11/1/2020,16,Felony,Male
+Bronx,ROBBERY,45,11/1/2020,16,Felony,Male
+Bronx,ROBBERY,45,11/2/2020,16,Felony,Male
+Bronx,ASSAULT,44,11/2/2020,16,Felony,Male
+Bronx,MENACING,40,11/2/2020,16,Misdemeanor,Male
+Bronx,MENACING,40,11/2/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,47,11/3/2020,17,Felony,Female
+Bronx,HOMICIDE,48,11/4/2020,17,Felony,Male
+Bronx,HOMICIDE,44,11/4/2020,15,Felony,Female
+Bronx,HOMICIDE,48,11/4/2020,17,Felony,Male
+Bronx,CRIM POS STOLEN PROP,44,11/4/2020,17,Misdemeanor,Female
+Bronx,SEXUAL ASSAULT,41,11/4/2020,15,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,41,11/4/2020,14,Felony,Male
+Bronx,SEXUAL ASSAULT,41,11/4/2020,14,Felony,Male
+Bronx,LARCENY,43,11/5/2020,17,Felony,Male
+Bronx,ROBBERY,47,11/6/2020,15,Felony,Male
+Bronx,CRIM POS STOLEN PROP,47,11/6/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,47,11/6/2020,16,Felony,Male
+Bronx,ROBBERY,47,11/6/2020,16,Felony,Male
+Bronx,ROBBERY,47,11/6/2020,14,Felony,Male
+Bronx,ROBBERY,47,11/6/2020,16,Felony,Male
+Bronx,CRIM POS STOLEN PROP,41,11/6/2020,16,Misdemeanor,Female
+Bronx,ROBBERY,47,11/6/2020,15,Felony,Male
+Bronx,ROBBERY,47,11/6/2020,14,Felony,Male
+Bronx,LARCENY,40,11/6/2020,16,Felony,Male
+Bronx,MENACING,40,11/7/2020,14,Misdemeanor,Male
+Bronx,ASSAULT,46,11/7/2020,17,Felony,Male
+Bronx,ASSAULT,46,11/7/2020,17,Misdemeanor,Male
+Bronx,OTHER,44,11/8/2020,16,Misdemeanor,Male
+Bronx,LARCENY,40,11/8/2020,14,Felony,Male
+Bronx,AUTO THEFT,40,11/8/2020,15,Felony,Male
+Bronx,HOMICIDE,44,11/9/2020,15,Felony,Male
+Bronx,ASSAULT,47,11/9/2020,15,Misdemeanor,Male
+Bronx,ROBBERY,52,11/10/2020,17,Felony,Male
+Bronx,ASSAULT,45,11/10/2020,16,Misdemeanor,Male
+Bronx,LARCENY,44,11/10/2020,15,Misdemeanor,Male
+Bronx,HOMICIDE,44,11/10/2020,15,Felony,Male
+Bronx,ROBBERY,49,11/10/2020,15,Felony,Male
+Bronx,OTHER,44,11/10/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,45,11/11/2020,17,Felony,Male
+Bronx,ROBBERY,45,11/11/2020,17,Felony,Male
+Bronx,ASSAULT,42,11/11/2020,15,Felony,Female
+Bronx,ROBBERY,45,11/11/2020,17,Felony,Male
+Bronx,ASSAULT,41,11/12/2020,16,Misdemeanor,Male
+Bronx,LARCENY,45,11/12/2020,17,Felony,Male
+Bronx,LARCENY,49,11/12/2020,14,Felony,Female
+Bronx,CRIM POS STOLEN PROP,45,11/12/2020,17,Felony,Male
+Bronx,ROBBERY,43,11/12/2020,15,Felony,Male
+Bronx,CRIMINAL MISCHIEF,41,11/12/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,45,11/12/2020,17,Felony,Male
+Bronx,ROBBERY,45,11/12/2020,17,Felony,Male
+Bronx,ROBBERY,45,11/12/2020,17,Felony,Male
+Bronx,ASSAULT,40,11/12/2020,17,Misdemeanor,Male
+Bronx,HOMICIDE,44,11/13/2020,17,Felony,Male
+Bronx,WEAPONS,42,11/13/2020,16,Felony,Male
+Bronx,WEAPONS,42,11/13/2020,15,Felony,Male
+Bronx,WEAPONS,42,11/13/2020,16,Felony,Male
+Bronx,WEAPONS,42,11/13/2020,15,Felony,Male
+Bronx,MARIJUANA,40,11/13/2020,15,Misdemeanor,Male
+Bronx,MARIJUANA,40,11/13/2020,15,Misdemeanor,Male
+Bronx,LARCENY,43,11/14/2020,16,Felony,Male
+Bronx,AUTO THEFT,43,11/14/2020,16,Misdemeanor,Male
+Bronx,LARCENY,52,11/14/2020,16,Felony,Male
+Bronx,OTHER,52,11/14/2020,16,Misdemeanor,Male
+Bronx,LARCENY,52,11/14/2020,16,Felony,Male
+Bronx,LARCENY,52,11/14/2020,15,Felony,Male
+Bronx,LARCENY,47,11/14/2020,15,Felony,Male
+Bronx,LARCENY,52,11/14/2020,15,Felony,Male
+Bronx,LARCENY,50,11/15/2020,14,Felony,Male
+Bronx,ASSAULT,40,11/15/2020,17,Felony,Male
+Bronx,OTHER,40,11/15/2020,16,Misdemeanor,Male
+Bronx,MENACING,42,11/16/2020,17,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,42,11/17/2020,17,Felony,Male
+Bronx,CRIM POS STOLEN PROP,42,11/17/2020,14,Felony,Female
+Bronx,CRIM POS STOLEN PROP,42,11/17/2020,16,Felony,Female
+Bronx,ROBBERY,49,11/17/2020,17,Felony,Female
+Bronx,CRIM POS STOLEN PROP,42,11/17/2020,15,Felony,Female
+Bronx,ROBBERY,49,11/17/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,52,11/17/2020,15,Misdemeanor,Male
+Bronx,LARCENY,46,11/18/2020,17,Felony,Male
+Bronx,ASSAULT,40,11/18/2020,17,Misdemeanor,Male
+Bronx,MENACING,40,11/18/2020,17,Misdemeanor,Female
+Bronx,LARCENY,46,11/19/2020,16,Felony,Male
+Bronx,CRIMINAL MISCHIEF,47,11/19/2020,17,Misdemeanor,Female
+Bronx,WEAPONS,44,11/19/2020,15,Misdemeanor,Male
+Bronx,WEAPONS,44,11/19/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,44,11/19/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,44,11/19/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,44,11/19/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,44,11/19/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,48,11/19/2020,17,Misdemeanor,Male
+Bronx,AUTO THEFT,49,11/20/2020,16,Misdemeanor,Male
+Bronx,OTHER,41,11/20/2020,17,Misdemeanor,Male
+Bronx,AUTO THEFT,49,11/20/2020,17,Misdemeanor,Male
+Bronx,AUTO THEFT,49,11/20/2020,16,Misdemeanor,Male
+Bronx,LARCENY,49,11/20/2020,17,Felony,Female
+Bronx,AUTO THEFT,49,11/20/2020,17,Misdemeanor,Female
+Bronx,CRIM POS STOLEN PROP,49,11/20/2020,16,Felony,Male
+Bronx,LARCENY,49,11/20/2020,17,Felony,Male
+Bronx,LARCENY,49,11/20/2020,16,Felony,Male
+Bronx,CRIM POS STOLEN PROP,48,11/21/2020,15,Felony,Male
+Bronx,CRIM POS STOLEN PROP,48,11/21/2020,17,Felony,Male
+Bronx,CRIM POS STOLEN PROP,48,11/21/2020,15,Felony,Male
+Bronx,CRIM POS STOLEN PROP,48,11/21/2020,15,Felony,Male
+Bronx,HOMICIDE,48,11/22/2020,17,Felony,Male
+Bronx,ROBBERY,49,11/23/2020,16,Felony,Male
+Bronx,ROBBERY,49,11/23/2020,15,Felony,Male
+Bronx,ROBBERY,48,11/23/2020,15,Felony,Male
+Bronx,ASSAULT,43,11/23/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,48,11/23/2020,15,Felony,Male
+Bronx,MENACING,42,11/23/2020,16,Misdemeanor,Male
+Bronx,BURGLARY,43,11/23/2020,17,Felony,Male
+Bronx,MENACING,47,11/24/2020,17,Misdemeanor,Male
+Bronx,BURGLARY,47,11/24/2020,15,Felony,Male
+Bronx,BURGLARY,47,11/24/2020,15,Felony,Male
+Bronx,ROBBERY,48,11/24/2020,14,Felony,Female
+Bronx,WEAPONS,42,11/24/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,43,11/25/2020,17,Felony,Female
+Bronx,SEXUAL ASSAULT,46,11/25/2020,12,Felony,Male
+Bronx,ASSAULT,47,11/25/2020,15,Felony,Male
+Bronx,ASSAULT,46,11/25/2020,17,Misdemeanor,Female
+Bronx,ROBBERY,47,11/26/2020,16,Felony,Male
+Bronx,ROBBERY,43,11/27/2020,13,Felony,Male
+Bronx,ASSAULT,40,11/27/2020,15,Misdemeanor,Female
+Bronx,ASSAULT,43,11/27/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,40,11/27/2020,17,Felony,Male
+Bronx,ROBBERY,48,11/27/2020,13,Felony,Male
+Bronx,ROBBERY,40,11/27/2020,13,Felony,Male
+Bronx,ROBBERY,48,11/28/2020,11,Felony,Male
+Bronx,OTHER,48,11/28/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,48,11/28/2020,11,Felony,Male
+Bronx,CRIMINAL MISCHIEF,48,11/28/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,43,11/28/2020,16,Misdemeanor,Male
+Bronx,OTHER,48,11/28/2020,17,Misdemeanor,Male
+Bronx,OTHER,48,11/28/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,48,11/28/2020,17,Misdemeanor,Male
+Bronx,CRIMINAL MISCHIEF,48,11/28/2020,17,Felony,Male
+Bronx,WEAPONS,44,11/28/2020,17,Felony,Male
+Bronx,CRIMINAL MISCHIEF,48,11/28/2020,17,Misdemeanor,Male
+Bronx,DRUG,40,12/1/2020,17,Felony,Male
+Bronx,ROBBERY,44,12/1/2020,12,Felony,Male
+Bronx,ROBBERY,44,12/1/2020,16,Felony,Male
+Bronx,LARCENY,47,12/1/2020,16,Felony,Male
+Bronx,LARCENY,41,12/1/2020,16,Felony,Male
+Bronx,ASSAULT,48,12/1/2020,14,Felony,Male
+Bronx,ASSAULT,47,12/1/2020,16,Misdemeanor,Male
+Bronx,LARCENY,46,12/2/2020,13,Felony,Female
+Bronx,ASSAULT,46,12/2/2020,12,Felony,Female
+Bronx,ROBBERY,46,12/2/2020,13,Felony,Female
+Bronx,WEAPONS,46,12/2/2020,14,Felony,Female
+Bronx,LARCENY,46,12/2/2020,13,Felony,Female
+Bronx,LARCENY,46,12/2/2020,13,Felony,Female
+Bronx,WEAPONS,46,12/2/2020,15,Felony,Female
+Bronx,BURGLARY,41,12/2/2020,16,Felony,Male
+Bronx,WEAPONS,46,12/2/2020,13,Felony,Female
+Bronx,WEAPONS,46,12/2/2020,17,Felony,Male
+Bronx,WEAPONS,46,12/2/2020,16,Felony,Male
+Bronx,WEAPONS,46,12/2/2020,16,Felony,Male
+Bronx,BURGLARY,40,12/2/2020,17,Felony,Male
+Bronx,ROBBERY,40,12/2/2020,17,Felony,Male
+Bronx,ASSAULT,40,12/2/2020,17,Misdemeanor,Male
+Bronx,SEXUAL ASSAULT,41,12/3/2020,17,Felony,Male
+Bronx,ASSAULT,44,12/3/2020,17,Felony,Male
+Bronx,ASSAULT,47,12/4/2020,17,Misdemeanor,Female
+Bronx,LARCENY,40,12/4/2020,17,Felony,Male
+Bronx,ASSAULT,47,12/4/2020,16,Misdemeanor,Female
+Bronx,ASSAULT,45,12/4/2020,16,Misdemeanor,Female
+Bronx,ASSAULT,43,12/5/2020,17,Misdemeanor,Male
+Bronx,LARCENY,44,12/5/2020,17,Felony,Male
+Bronx,WEAPONS,47,12/5/2020,17,Felony,Male
+Bronx,ASSAULT,44,12/7/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,49,12/7/2020,17,Felony,Female
+Bronx,ROBBERY,49,12/7/2020,17,Felony,Male
+Bronx,ROBBERY,49,12/7/2020,17,Felony,Female
+Bronx,ROBBERY,49,12/7/2020,17,Felony,Male
+Bronx,ROBBERY,49,12/7/2020,17,Felony,Female
+Bronx,ROBBERY,49,12/7/2020,17,Felony,Female
+Bronx,ROBBERY,49,12/7/2020,17,Felony,Female
+Bronx,ROBBERY,48,12/7/2020,16,Felony,Male
+Bronx,MENACING,43,12/7/2020,17,Misdemeanor,Male
+Bronx,LARCENY,47,12/7/2020,16,Felony,Male
+Bronx,LARCENY,48,12/7/2020,16,Felony,Male
+Bronx,SEXUAL ASSAULT,41,12/7/2020,17,Felony,Male
+Bronx,ROBBERY,43,12/7/2020,17,Felony,Male
+Bronx,OTHER,41,12/7/2020,15,Misdemeanor,Male
+Bronx,LARCENY,47,12/7/2020,17,Felony,Male
+Bronx,ROBBERY,43,12/8/2020,15,Felony,Male
+Bronx,ASSAULT,43,12/8/2020,16,Felony,Male
+Bronx,ASSAULT,45,12/8/2020,17,Felony,Male
+Bronx,LARCENY,47,12/8/2020,17,Felony,Male
+Bronx,ROBBERY,43,12/8/2020,15,Felony,Male
+Bronx,ASSAULT,43,12/8/2020,16,Misdemeanor,Male
+Bronx,ROBBERY,43,12/8/2020,15,Felony,Male
+Bronx,LARCENY,47,12/8/2020,17,Felony,Male
+Bronx,ROBBERY,47,12/8/2020,16,Felony,Male
+Bronx,LARCENY,50,12/8/2020,17,Felony,Male
+Bronx,ASSAULT,52,12/8/2020,16,Felony,Male
+Bronx,LARCENY,47,12/8/2020,17,Felony,Male
+Bronx,LARCENY,47,12/8/2020,17,Felony,Male
+Bronx,LARCENY,50,12/8/2020,17,Felony,Male
+Bronx,ROBBERY,50,12/8/2020,16,Felony,Male
+Bronx,ROBBERY,43,12/10/2020,15,Felony,Male
+Bronx,ROBBERY,43,12/10/2020,15,Felony,Male
+Bronx,ROBBERY,43,12/10/2020,15,Felony,Male
+Bronx,THEFT OF SERVICES,41,12/10/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,43,12/10/2020,15,Felony,Male
+Bronx,ASSAULT,44,12/10/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,43,12/10/2020,15,Felony,Male
+Bronx,ROBBERY,43,12/10/2020,15,Felony,Male
+Bronx,FORGERY,41,12/10/2020,17,Felony,Male
+Bronx,MENACING,41,12/10/2020,14,Misdemeanor,Female
+Bronx,ROBBERY,43,12/10/2020,15,Felony,Male
+Bronx,ASSAULT,43,12/11/2020,15,Felony,Male
+Bronx,CRIM POS STOLEN PROP,43,12/11/2020,16,Felony,Male
+Bronx,ASSAULT,43,12/11/2020,16,Felony,Male
+Bronx,ASSAULT,43,12/11/2020,15,Felony,Male
+Bronx,SEXUAL ASSAULT,46,12/12/2020,13,Felony,Male
+Bronx,WEAPONS,46,12/12/2020,15,Felony,Male
+Bronx,WEAPONS,46,12/12/2020,16,Felony,Male
+Bronx,,46,12/13/2020,17,Felony,Male
+Bronx,ROBBERY,43,12/14/2020,15,Felony,Male
+Bronx,LARCENY,52,12/14/2020,17,Felony,Male
+Bronx,ROBBERY,43,12/14/2020,15,Felony,Male
+Bronx,LARCENY,52,12/14/2020,16,Felony,Female
+Bronx,WEAPONS,46,12/14/2020,17,Felony,Male
+Bronx,ROBBERY,43,12/14/2020,15,Felony,Male
+Bronx,CRIMINAL MISCHIEF,41,12/14/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,48,12/15/2020,15,Felony,Male
+Bronx,ROBBERY,47,12/15/2020,17,Felony,Male
+Bronx,WEAPONS,52,12/15/2020,17,Felony,Male
+Bronx,RECKLESS ENDANGERMNT,49,12/15/2020,17,Felony,Male
+Bronx,MARIJUANA,47,12/16/2020,17,Misdemeanor,Male
+Bronx,CRIM POS STOLEN PROP,49,12/16/2020,13,Felony,Male
+Bronx,CRIM POS STOLEN PROP,49,12/16/2020,13,Felony,Male
+Bronx,ASSAULT,52,12/16/2020,16,Misdemeanor,Female
+Bronx,CRIM POS STOLEN PROP,49,12/16/2020,15,Felony,Male
+Bronx,ASSAULT,41,12/16/2020,16,Felony,Male
+Bronx,ASSAULT,41,12/16/2020,16,Felony,Male
+Bronx,ROBBERY,49,12/17/2020,14,Felony,Male
+Bronx,ASSAULT,47,12/18/2020,17,Misdemeanor,Male
+Bronx,AUTO THEFT,48,12/18/2020,17,Misdemeanor,Female
+Bronx,ASSAULT,47,12/18/2020,17,Felony,Male
+Bronx,LARCENY,48,12/18/2020,17,Felony,Female
+Bronx,ASSAULT,48,12/19/2020,16,Misdemeanor,Male
+Bronx,ASSAULT,48,12/19/2020,15,Misdemeanor,Female
+Bronx,AUTO THEFT,46,12/20/2020,17,Misdemeanor,Male
+Bronx,ROBBERY,41,12/20/2020,16,Felony,Male
+Bronx,ROBBERY,49,12/21/2020,16,Felony,Male
+Bronx,WEAPONS,48,12/21/2020,16,Felony,Male
+Bronx,ROBBERY,41,12/21/2020,17,Felony,Male
+Bronx,WEAPONS,52,12/22/2020,16,Felony,Male
+Bronx,LARCENY,40,12/22/2020,14,Felony,Male
+Bronx,ASSAULT,47,12/23/2020,17,Felony,Female
+Bronx,ROBBERY,52,12/23/2020,16,Felony,Male
+Bronx,ASSAULT,47,12/23/2020,17,Felony,Female
+Bronx,HOMICIDE,52,12/23/2020,16,Felony,Male
+Bronx,WEAPONS,40,12/26/2020,17,Felony,Male
+Bronx,ASSAULT,50,12/27/2020,15,Misdemeanor,Female
+Bronx,LARCENY,40,12/27/2020,15,Felony,Male
+Bronx,ASSAULT,50,12/27/2020,15,Misdemeanor,Female
+Bronx,MARIJUANA,46,12/27/2020,16,Violation,Male
+Bronx,LARCENY,43,12/28/2020,16,Felony,Male
+Bronx,ASSAULT,52,12/28/2020,16,Misdemeanor,Female
+Bronx,ROBBERY,42,12/28/2020,17,Felony,Male
+Bronx,ASSAULT,52,12/28/2020,14,Felony,Female
+Bronx,ASSAULT,40,12/28/2020,17,Misdemeanor,Male
+Bronx,OTHER,42,12/29/2020,17,Misdemeanor,Male
+Bronx,HOMICIDE,42,12/29/2020,17,Felony,Male
+Bronx,ASSAULT,44,12/29/2020,15,Felony,Male
+Bronx,MENACING,44,12/29/2020,15,Misdemeanor,Male
+Bronx,WEAPONS,40,12/29/2020,15,Misdemeanor,Female
+Bronx,LARCENY,44,12/29/2020,15,Felony,Male
+Bronx,LARCENY,44,12/29/2020,16,Felony,Male
+Bronx,LARCENY,44,12/29/2020,15,Felony,Male
+Bronx,ROBBERY,40,12/30/2020,17,Felony,Male
+Bronx,ASSAULT,40,12/30/2020,15,Felony,Male
+Bronx,LARCENY,40,12/30/2020,17,Felony,Male
+Bronx,LARCENY,40,12/30/2020,17,Felony,Male
+Bronx,WEAPONS,43,12/30/2020,15,Felony,Male
+Bronx,WEAPONS,43,12/30/2020,15,Felony,Male
+Bronx,LARCENY,40,12/31/2020,17,Felony,Male
+Bronx,,42,12/31/2020,17,Misdemeanor,Male
+Bronx,WEAPONS,41,12/31/2020,14,Felony,Male
