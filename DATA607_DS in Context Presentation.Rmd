@@ -1,0 +1,157 @@
+---
+title: "DATA607_Data Science in context Presentation"
+author: Charles Ugiagbe
+date: "`r Sys.Date()`"
+output:
+  slidy_presentation: default
+  output: slidy_presentation
+  ioslides_presentation: default
+  theme: cerulean
+---
+
+
+##    10 Data Science Ethics 
+
+<center>
+<img src = "https://github.com/omocharly/DATA607_PROJECTS/blob/main/ethicsImage.png?raw=true" />
+</center>
+
+
+## Ethic 1: Identify the laws and regulations that might be applicable to our project.
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">    
+
+It is important to consider which laws and regulations might be relevant, what these laws are designed to protect or accomplish, and what the impact may be of not taking them into account. 
+</div> \hfill\break 
+
+## Ethic 2: Ensure you are achieving ethical accountability.
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">    
+
+It should be clear who will be accountable to minimize the harm that could be done by the project. Accountability includes ensuring the project team proactively identifies potential stakeholders and evaluates harms such as possible disproportionate effects that may arise from the application of a model.    
+</div> \hfill\break  
+   
+
+## Ethic 3: Educate the workforce to recognise the risks for harm and/or unfairness
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">    
+    
+* Communicating to others what data science can and cannot do
+
+* Helping non-technical individuals understand the ethical, professional and technical issues relevant to a project
+
+* Leaders ensuring that their organisation as a whole understands the ethical principles and policies surrounding data science
+
+</div> \hfill\break  
+
+
+## Ethic 4: How might individuals’ privacy and anonymity be impinged via our aggregation and linking of data?
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">    
+ 
+While the need for anonymity is not new to the computing field, the thought process with respect to how to ensure anonymity must be re-examined with the emergence of advanced data science linking techniques. In short, consideration should be given to how privacy will be maintained through the transmission, storage and merging of the data.   
+
+</div> \hfill\break  
+
+
+## Ethic 5: Identify if the data for our analysis or model is ethically available for its intended use.
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">    
+
+Being able to access and collect data does not mean that it is ethical to use that data. Hence, care must be taken to understand who owns the data, what are their rights and expectations, and is the data being used the way that the person (or entity) that contributed the data intended?
+    
+
+</div> \hfill\break  
+
+## Ethic 6: Avoiding unnecessary complexity in methods to improve transparency 
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">    
+
+* Considering simpler models and documenting the performance of different
+models tested
+
+* Disclosing the reasons for any improvements in accuracy if one model is
+favoured over another    
+
+</div> \hfill\break  
+
+
+## Ethic 7: Identify and minimize any bias in the data or in the model
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine"> 
+
+Data science machine learning models can be built using data that has a bias, and thus, the model might also learn this bias. For example, the use of machine learning algorithms has shown the capability of inheriting racial and gender biases.
+</div> \hfill\break  
+
+## Ethic 8: Consider the impact on the environment and its resources
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">   
+
+* Fully understand error, bias and risks associated with models applied to environmental problems**
+
+* Evaluate the energy-cost of storing and processing large volumes of data, and consider different options such as cloud computing, aggregating data and regularly reviewing the need for data**
+    
+
+</div> \hfill\break  
+
+
+
+## Ethic 9: Validating and improving work
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">    
+
+* Share appropriate code, diagnostics and results with colleagues/customers to
+ensure they sufficiently understand the models.
+
+* Encouraging challenge from others involved in the project
+
+* Publish results publicly where possible
+
+* Seeking feedback from peers, academia or subject matter experts   
+
+</div> \hfill\break  
+
+
+## Ethic 10: Identify the likely misinterpretations of the results and what can be done to prevent those misinterpretations.
+
+<style>
+div.aquamarine { background-color:#d9eff9; border-radius: 10px; padding: 5px;}
+</style>
+<div class = "aquamarine">    
+    
+Most predictive models are statistical in nature. They provide no guarantees; rather, they tell us about areas where an increased probability of an outcome might guide us to act differently. With this in mind, the data science project manager should ensure that the analytical decisions are made as a result of a data science project reflects the scale, accuracy and precision of the data that was used in creating the model.
+</div> \hfill\break  
+
+
+## References:
+
+https://www.actuaries.org.uk/system/files/field/document/An%20Ethical%20Charter%20for%20Date%20Science%20WEB%20FINAL.PDF
+
+https://www.datascience-pm.com/10-data-science-ethics-questions/
