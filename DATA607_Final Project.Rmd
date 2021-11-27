@@ -1,0 +1,133 @@
+---
+title: "DATA607_Final Project"
+author: Charles Ugiagbe
+output: 
+  html_document:
+    theme: cerulean
+---
+
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(plotly)
+library(readr)
+library(gridExtra)
+library(scales)
+library(lubridate)
+library(ggrepel)
+library(rgdal)
+```
+
+
+
+```{r}
+url <- "https://raw.githubusercontent.com/chinedu2301/data607-project-gun-violence/main/Data/mass_shooting.csv"
+mass_shooting <- read_csv(url)
+head(mass_shooting)
+```
+
+```{r}
+str(mass_shooting)
+```
+
+
+###   Mass shooting by year
+
+**There have been a consistent increase in mass shooting incident since 2018 and the current year 2021 has recorded the highest incident of mass shooting in America with 635 incident as of November 2021**
+
+```{r}
+mass_shooting$year <- year(mass_shooting$Incident_date) #extract year from date using the lubridate year() function
+
+mass_shooting %>%
+        ggplot(aes(x=as.factor(year))) + geom_bar(stat='count', fill='purple') +
+        scale_y_continuous(labels=comma) +
+        geom_label(stat = "count", aes(label = ..count.., y = ..count..))
+```
+
+###   Mass Shooting by Quarter.
+
+**Within the last eight (8) years, the third quarter of each year that is the summer season has recorded the highest number of mass shooting incident except for 2019 that has the Highest incident of mass shooting in the second quarter of the year.**
+
+```{r}
+mass_shooting$quarter <- quarter(mass_shooting$Incident_date) #extract Quarters from date
+
+q1 <- mass_shooting %>% filter(year!=2013) %>% select(year, quarter) %>% group_by(year) %>% count(quarter) %>%
+        ggplot(aes(x=as.factor(quarter), y=n)) + geom_bar(stat='identity', fill='red') + 
+        scale_y_continuous(labels=comma) + facet_grid(.~year) + labs(x='Quarter', y='Number of incidents') 
+q1
+```
+
+
+###     Mass shooting incident by Month
+
+**From year 2014 till date, the month of June has recorded the highest number of mass shooting incident with over 450 incident**
+
+```{r}
+mass_shooting$month <- month(mass_shooting$Incident_date, label=TRUE)
+
+mass_shooting %>% count(month) %>%
+      ggplot(aes(x=month, y=n)) + geom_bar(stat='identity', fill='purple') +
+        scale_y_continuous(labels=comma) +
+        labs(x='month', y='Number of incidents', title='Incidents by month')
+```
+
+
+###   Mass shooting by weekdays
+
+**As expected, there has been more incident of mass shooting on weekend (Saturdays and Sundays) of the week since year 2014; with Sundays recording the highest with over 900 mass shooting since 2014.**
+
+```{r}
+mass_shooting$weekday <- wday(mass_shooting$Incident_date, label=TRUE)
+
+mass_shooting %>% count(weekday) %>%
+      ggplot(aes(x=weekday, y=n)) + geom_bar(stat='identity', fill=rainbow(n=7)) +
+        scale_y_continuous(labels=comma) +
+        labs(x='Weekday', y='Number of incidents', title='Incidents by Weekday')
+```
+
+
+**Illinois has the highest incident of mass shooting while  New Hampshire has the least number of gun violence.**
+
+###   Gun Violence Incident by State.
+
+```{r}
+plotly::ggplotly(mass_shooting %>% count(State) %>%
+        ggplot(aes(x=reorder(State, n), y=n, fill=n, text=State)) +
+        geom_bar(stat='identity', fill='red') + coord_flip() +
+        labs(x='', y='Number of incidents'),
+         tooltip=c("text", "y"))
+       
+```
+
+
+### Top Ten(10) incidents by number of victims
+
+**Las Vegas mass shooting incident of October 1st 2017 has the highest number of victims with 500 victims recorded**
+
+```{r}
+mass_shooting$victims <- mass_shooting$No_killed + mass_shooting$No_injured
+Top10 <- mass_shooting %>% select(Incident_date, State, City, No_killed, No_injured, victims, Geo_Address) %>% 
+         arrange(desc(victims)) %>% top_n(n=10, wt=victims)
+Top10
+```
+
+**Illinois has the Highest number of victims recorded for mass shooting while wyoming has the the lowest number of victims recorded from year 2014 till Nov 20th, 2021.**
+
+```{r}
+mass_shooting$victims <- mass_shooting$No_killed + mass_shooting$No_injured
+
+VictimsByState <- mass_shooting %>% group_by(State)  %>%   summarize(sumVic=sum(victims), sumInj=sum(No_injured), sumDeath=sum(No_killed), PercDeath=round(sumDeath/sumVic,2), sumIncidents=n(), vicPerInc=round(sumVic/sumIncidents,1)) %>% arrange(desc(sumVic))
+head(VictimsByState)
+```
+
+###   Victims by state
+
+
+```{r}
+VictimsByState %>% filter(vicPerInc>5
+                          ) %>%
+        ggplot(aes(x=reorder(State, -vicPerInc), y=vicPerInc)) + geom_bar(stat='identity', fill='red') +
+        labs(x='State', y='Victims per incidents') + geom_text(aes(label = vicPerInc), vjust = 0) +
+        theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+```
+
